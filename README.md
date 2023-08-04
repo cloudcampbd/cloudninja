@@ -17,6 +17,7 @@
     - [3.1.1. New User Registration](#311-new-user-registration)
     - [3.1.2. User Log In](#312-user-log-in)
     - [3.1.3. Password Recovery](#313-password-recovery)
+    - [3.1.4. User Groups Management](#314-users-group-management)
   - [3.2. Event Management](#32-event-management)
   - [3.3. Professional Profile](#33-professional-profile)
   - [3.4. Communication and Collaboration (Similar to Slack)](#34-communication-and-collaboration-similar-to-slack)
@@ -26,7 +27,7 @@
   - [3.8. ChatBot: Towards Artificial General Intelligence (AGI)](#38-chatbot-towards-artificial-general-intelligence-agi)
   - [3.9. Push Notification](#39-push-notification)
   - [3.10 Email](#40-email)
-  - [3.11 User Management](#41-user-management)
+
 - [4. Architecture and Technology Stack](#4-architecture-and-technology-stack)
   - [4.1. Systemwide Architecture Diagram](#41-systemwide-architecture-diagram)
   - [4.2. Microservices Design Architecture Diagram](#42-microservices-design-architecture-diagram)
@@ -115,6 +116,9 @@ For users with registered accounts, the default method of access involves using 
 #### 3.1.3. Password Recovery
 A convenient one-click password reset link will be dispatched to the registered email address, ensuring a straightforward recovery process. Additionally, users will have the ability to change their passwords at any time via the User Profile Menu. Moreover, users will be empowered to implement supplementary security measures such as Multi-Factor Authentication (MFA) or Two-Factor Authentication (2FA), integrate Backup Codes, and adopt other strategic mechanisms to bolster the defense against potential attack vectors.
 
+### 3.1.4. User Groups Management
+Organizing users into specific roles or groups streamlines permission and access management. Grouping users with similar responsibilities, such as Admin, developer, designer, manager, facilitates efficient control over their access rights.
+
 ### 3.2. Event Management
 Effortlessly create and manage events, overseeing crucial aspects such as event budgets, vendor coordination, sponsorships, volunteer assignments, guest lists, and visitor registrations.
 
@@ -146,5 +150,39 @@ Push notifications can be sent automatically or manually from the system to all 
 ### 3.10. Email
 The system has the capability to send emails to either all users or specific users. These emails can contain updates about news, links, meeting information, campaigns, and other relevant details. The notifications can be scheduled or sent manually.
 
-### 3.11. User Management
-Organizing users into specific roles or groups streamlines permission and access management. Grouping users with similar responsibilities, such as Admin, developer, designer, manager, facilitates efficient control over their access rights.
+
+## 4. Architecture and Technology Stack
+
+### 4.1. Systemwide Architecture Diagram
+Overall Architecture Diagram Version 1 Link:
+https://app.diagrams.net/#G1YEN4bdtK-qzEjNZu6zI3n4FlZgUnd1f5
+
+### 4.2. UI/UX Design Mockup
+Figma Design Mockup Version 1 Link:
+
+### 4.3. Frontend Technologies Architecture Diagram
+List of frontend technologies used. Architecture diagram depicts how our frontend communicates with the backend.
+Frontend Architecture Diagram Version 1 Link:
+
+### 4.4. Microservices Design Architecture Diagram
+MicroServices Architecture Diagram Version 1 Link:
+
+### 4.5. Backend Technologies Architecture Diagram
+Here we see how our overall backend system works in the diagram.
+Backend Architecture Diagram Version 1 Link:
+
+### 4.6. AI/ML, Generative AI Architecture Diagram
+We explore the AI/ML and Generative AI services for our application here. Diagram shows the Machine Learning Pipelines in detail.
+
+AI/ML Architecture Diagram Version 1 Link:
+
+### 4.7. Database Management Architecture Diagram
+
+Database Architecture Diagram Version 1 Link:
+
+### 4.8. Data Management, Analytics and Visualization Diagram
+Data Architecture Diagram Version 1:
+
+### 4.9. Payment Processing Architecture Diagram
+Payment Processing Architecture Diagram Version 1:
+
