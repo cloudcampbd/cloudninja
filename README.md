@@ -1,4 +1,6 @@
-# Cloud Ninja Community Management Platform Application
+# Cloud Ninja 
+
+## CloudCamp Bangladesh Community Management Platform Application
 
 ## Project Document
 
