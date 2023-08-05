@@ -83,7 +83,7 @@
 
 ## 1. Introduction
 
-Welcome to the <a href="https://www.cloudcampbd.org" target="_blank">CloudCamp Bangladesh</a> Cloud Ninja Community Management Platform Application Project! This comprehensive document outlines the essential steps required to develop a robust web application and mobile apps for both iOS and Android platforms. The central architecture of this platform will be built upon the powerful suite of AWS Serverless Services, ensuring a scalable and efficient infrastructure.
+Welcome to the <a href="https://www.cloudcampbd.com" target="_blank">CloudCamp Bangladesh</a> Cloud Ninja Community Management Platform Application Project! This comprehensive document outlines the essential steps required to develop a robust web application and mobile apps for both iOS and Android platforms. The central architecture of this platform will be built upon the powerful suite of AWS Serverless Services, ensuring a scalable and efficient infrastructure.
 
 In addition to the core AWS Serverless Services, this project will harness the full capabilities of Amazon SageMaker, an all-in-one Machine Learning Service, along with AWS Generative AI applications like Amazon CodeWhisperer and Amazon Bedrock. These cutting-edge tools will empower the platform with advanced AI-driven functionalities. Furthermore, the development will be orchestrated through the utilization of AWS Serverless Application Model (SAM), AWS Python SDK boto3, AWS Cloud Development Kit (AWS CDK), and a host of other AWS services, each carefully chosen to enhance Data Management, Query, and Visualizations.
 
@@ -189,7 +189,7 @@ Payment Processing Architecture Diagram Version 1:
 
 ### 5.1. Handling Authentication and Authorization
 
-[Amazon Cognito](https://aws.amazon.com/cognito/{:target="_blank"}) is a powerful authentication and authorization service provided by Amazon Web Services (AWS) that offers a range of features and benefits for handling user identity and access control. Here's why we've chosen Amazon Cognito:
+<a href="https://aws.amazon.com/cognito/" target="_blank">Amazon Cognito</a> is a powerful authentication and authorization service provided by Amazon Web Services (AWS) that offers a range of features and benefits for handling user identity and access control. Here's why we've chosen Amazon Cognito:
 
 **User Sign-Up and Sign-In:**
 Amazon Cognito provides a seamless and secure way for users to sign up and sign in to your application. It offers various options for user registration, including traditional email and password, as well as social identity federation using providers like Google, Facebook, and Amazon. This versatility ensures that users have multiple convenient methods to access our application.
@@ -224,8 +224,7 @@ Amazon Cognito is a managed service, meaning AWS takes care of operational tasks
 In summary, Amazon Cognito is an ideal choice for handling authentication and authorization in our project due to its scalability, security, customization options, and seamless integration with other AWS services. It provides a comprehensive solution that enhances user security, streamlines access control, and contributes to an overall positive user experience.
 
 ### 5.2. Storing MetaData, Transaction Logs and System Logs
-
-[Amazon DynamoDB](https://aws.amazon.com/dynamodb/{:target="_blank"}) and [Amazon Simple Storage Service (S3)](https://aws.amazon.com/s3/{:target="_blank"}) are key components of our technology stack for several reasons:
+<a href="https://aws.amazon.com/dynamodb/" target="_blank">Amazon DynamoDB</a> and <a href="https://aws.amazon.com/s3/" target="_blank">Amazon Simple Storage Service (S3)</a> are key components of our technology stack for several reasons:
 
 Amazon DynamoDB:
 
@@ -372,7 +371,7 @@ Incorporating Amazon Aurora PostgreSQL Serverless as our data storage solution f
 
 ## 9. Active Team Members
 
-We embrace developers from various backgrounds and geographic locations, encouraging them to join our repository and contribute at any time. This section will comprehensively showcase all contributors and acknowledge their efforts like [here](https://www.postgresql.org/community/contributors/{:target="_blank"}), facilitated by automated tools like the one in this github [repo](https://github.com/icecrime/vossibility-stack{:target="_blank"}).
+We embrace developers from various backgrounds and geographic locations, encouraging them to join our repository and contribute at any time. This section will comprehensively showcase all contributors and acknowledge their efforts like <a href="https://www.postgresql.org/community/contributors/" target="_blank">here</a> facilitated by automated tools like the one in this github <a href="https://github.com/icecrime/vossibility-stack" target="_blank"> repo. </a>
 
 ### 9.1. List of Contributors
 
