@@ -4,13 +4,13 @@
 
 ## Authors
 
-| SL  | Name                         | Email                      | Contact Number      |
-| --- | ---------------------------- | -------------------------- | ------------------- |
-| 1   | Mohammad Zaman               | mohammad.zaman@gmail.com   | +1-917-648-0034     |
-| 2   | Md. Mahamudur Rahman Sohag   | opensohag@gmail.com        | +880-1711475567     |
-| 3   | Sanjoy K Paul                | skpaul82@gmail.com         | +880-1511927992     |
-| 4   | Naim Hossen                  | naimhossenpro@gmail.com    | +880-1750565053     |
-|     |                              |                            |                     |
+| SL  | Name                         | Email                      | Contact Number        |
+| --- | ---------------------------- | -------------------------- | --------------------- |
+| 1   | Mohammad Zaman               | mohammad.zaman@gmail.com   | +1-917-648-0034       |
+| 2   | Md. Mahamudur Rahman Sohag   | opensohag@gmail.com        | +880-1711-475-567     |
+| 3   | Sanjoy K Paul                | skpaul82@gmail.com         | +880-1511-927-992     |
+| 4   | Naim Hossen                  | naimhossenpro@gmail.com    | +880-1750-565-053     |
+|     |                              |                            |                       |
 
 ### Document Outline
 
