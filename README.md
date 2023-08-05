@@ -189,7 +189,7 @@ Payment Processing Architecture Diagram Version 1:
 
 ### 5.1. Handling Authentication and Authorization
 
-[Link Amazon Cognito](https://aws.amazon.com/cognito/) is a powerful authentication and authorization service provided by Amazon Web Services (AWS) that offers a range of features and benefits for handling user identity and access control. In the context of your project's 5.1. Handling Authentication and Authorization section, here's an elaboration on why you've chosen Amazon Cognito:
+[Amazon Cognito](https://aws.amazon.com/cognito/) is a powerful authentication and authorization service provided by Amazon Web Services (AWS) that offers a range of features and benefits for handling user identity and access control. In the context of your project's 5.1. Handling Authentication and Authorization section, here's an elaboration on why you've chosen Amazon Cognito:
 
 **User Sign-Up and Sign-In:**
 Amazon Cognito provides a seamless and secure way for users to sign up and sign in to your application. It offers various options for user registration, including traditional email and password, as well as social identity federation using providers like Google, Facebook, and Amazon. This versatility ensures that users have multiple convenient methods to access your application.
@@ -225,7 +225,7 @@ In summary, Amazon Cognito is an ideal choice for handling authentication and au
 
 ### 5.2. Storing MetaData, Transaction Logs and System Logs
 
-[Link Amazon DynamoDB](https://aws.amazon.com/dynamodb/) and [Link Amazon Simple Storage Service (S3)](https://aws.amazon.com/s3/) are key components of our technology stack for several reasons:
+[Amazon DynamoDB](https://aws.amazon.com/dynamodb/) and [Amazon Simple Storage Service (S3)](https://aws.amazon.com/s3/) are key components of our technology stack for several reasons:
 
 Amazon DynamoDB:
 
@@ -372,7 +372,7 @@ Incorporating Amazon Aurora PostgreSQL Serverless as our data storage solution f
 
 ## 9. Active Team Members
 
-We embrace developers from various backgrounds and geographic locations, encouraging them to join our repository and contribute at any time. This section will comprehensively showcase all contributors and acknowledge their efforts like [Link here](https://www.postgresql.org/community/contributors/), facilitated by automated tools like the one in this github [Link repo](https://github.com/icecrime/vossibility-stack).
+We embrace developers from various backgrounds and geographic locations, encouraging them to join our repository and contribute at any time. This section will comprehensively showcase all contributors and acknowledge their efforts like [here](https://www.postgresql.org/community/contributors/), facilitated by automated tools like the one in this github [repo](https://github.com/icecrime/vossibility-stack).
 
 ### 9.1. List of Contributors
 
