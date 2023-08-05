@@ -243,40 +243,40 @@ The formal structure of the project involves the following essential roles and r
 
 ### 10.1. Roles and Responsibilities
 
-**Evangelist / Visionary Sponsor:**
+## Leadership and Governance
 
-Shapes and communicates the project's overarching vision and strategic direction.
-Advocates for the project, garnering support and resources from stakeholders.
-Provides high-level guidance and ensures alignment with organizational goals.
-Inspires and motivates the team by outlining the project's long-term impact.
+### Evangelist / Visionary Sponsor:
+- Shapes and communicates project vision and direction.
+- Advocates for support and resources.
+- Provides high-level guidance and alignment.
+- Inspires and motivates the team with impact-driven goals.
 
-**Project Coordinator / Director:**
+### Project Coordinator / Director:
+- Orchestrates project management.
+- Develops project plan, timeline, milestones.
+- Manages resources, budget, and risks.
+- Facilitates communication among teams and stakeholders.
 
-Orchestrates project management activities, ensuring that all tasks are coordinated.
-Develops and communicates the project plan, timeline, and milestones.
-Manages resources, budget, and potential risks to keep the project on track.
-Facilitates communication among team members, stakeholders, and leadership.
+### Technology Strategist:
+- Evaluates and oversees tech landscape.
+- Makes informed decisions about tools and frameworks.
+- Identifies tech optimization opportunities.
+- Provides technical guidance and mentorship.
 
-**Technology Strategist:**
+### Active Developer:
+- Contributes code and technical expertise.
+- Collaborates on feature implementation.
+- Influences design and decisions.
+- Takes ownership of tasks for completion.
 
-Evaluates and oversees the technological landscape, making informed decisions about tools, frameworks, and architecture.
-Identifies opportunities to leverage new technologies for project optimization.
-Ensures that the project's technical direction aligns with the organization's overall technology strategy.
-Provides technical guidance and mentorship to the development team.
+### Reviewer and Approver:
+- Safeguards quality through code and design review.
+- Ensures coding standards and practices.
+- Provides constructive feedback.
+- Approves contributions for integration.
 
-**Active Developer:**
-
-Actively participates in project development by contributing code and technical expertise.
-Collaborates with other developers, testers, and stakeholders to implement features and resolve issues.
-Helps make design and implementation decisions based on their in-depth understanding of the project's codebase.
-Takes ownership of specific tasks and ensures their successful completion.
-
-**Reviewer and Approver:**
-
-Safeguards the quality and integrity of contributions by reviewing code, documentation, and design proposals.
-Ensures that coding standards, best practices, and guidelines are followed.
-Provides constructive feedback to developers and contributors to improve the overall quality of the project.
-Approves contributions for integration into the project's codebase after thorough review.
-
-These roles work in harmony to drive the project's success, from establishing a clear vision and strategy to executing the technical development and maintaining the quality of the project. Effective collaboration and communication among these roles are crucial for delivering a high-quality project that meets its objectives and aligns with the organization's goals.
+### Roles collaborate for project success:
+- Vision and strategy establishment.
+- Technical execution and quality maintenance.
+- Effective communication and collaboration.
 
