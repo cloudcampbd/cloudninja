@@ -49,7 +49,7 @@
   - [4.5. Backend Technologies Architecture Diagram](#45-backend-technologies-architecture-diagram)
   - [4.6. AI/ML, Generative AI Architecture Diagram](#46-aiml-generative-ai-architecture-diagram)
   - [4.7. Database Management Architecture Diagram](#47-database-management-architecture-diagram)
-  - [4.8. Data Management, Analytics and Visualizations Architecure Diagram](#48-data-managememt,-analytics-and-visualizations-architecture-diagram)
+  - [4.8. Data Management, Analytics and Visualizations Architecture Diagram](#48-data-management-analytics-and-visualizations-architecture-diagram)
   - [4.9. Payment Processing Architecture Diagram](#49-payment-processing-architecture-diagram)
 - [5. System Components](#5-system-components)
   - [5.1. Handling Authentication and Authorization](#51-handling-authentication-and-authorization)
