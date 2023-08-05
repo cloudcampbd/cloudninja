@@ -1,8 +1,8 @@
-# Cloud Ninja 
+<div style="text-align: center;"># Cloud Ninja</div>
+<div style="text-align: center;">## CloudCamp Bangladesh Community Management Platform Application</div>
+<div style="text-align: center;">## Project Document</div>
 
-## CloudCamp Bangladesh Community Management Platform Application
 
-## Project Document
 
 ## Authors
 
