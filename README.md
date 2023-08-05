@@ -43,7 +43,7 @@
 
 - [4. Architecture and Technology Stack](#4-architecture-and-technology-stack)
   - [4.1. Systemwide Architecture Diagram](#41-systemwide-architecture-diagram)
-  - [4.2. UI/UX Design Mockup](#42-ui-ux-design-mockup)
+  - [4.2. UI/UX Design Mockup](#42-uiux-design-mockup)
   - [4.3. Frontend Technologies Architecture Diagram](#43-frontend-technologies-architecture-diagram)
   - [4.4. Microservices Design Architecture Diagram](#44-microservices-design-architecture-diagram)
   - [4.5. Backend Technologies Architecture Diagram](#45-backend-technologies-architecture-diagram)
