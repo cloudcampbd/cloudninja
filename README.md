@@ -6,6 +6,8 @@
 
 
 
+
+
 ## Authors
 
 | SL  | Name                         | Email                      | Contact Number      |
@@ -133,7 +135,6 @@ Curate a comprehensive repository of common and frequently asked questions to pr
 
 ### 3.7. Support Ticketing System
 Implement an organized support ticketing system, streamlining user inquiries and ensuring efficient handling of support-related activities.
-
 
 ### 3.8. ChatBot : Towards Artificial General Intelligence (AGI)
 This module represents a visionary component within the system, exemplifying our commitment to cutting-edge innovation. Anchored by a Foundation Model (LLM), our ChatBot stands as an emblem of refined craftsmanship through its meticulous tuning using popular frameworks. With its expansive capabilities, this ChatBot transcends traditional boundaries, offering an omniscient virtual companion for learners.
