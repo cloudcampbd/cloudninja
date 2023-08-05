@@ -111,7 +111,7 @@ For users with registered accounts, the default method of access involves using 
 #### 3.1.3. Password Recovery
 A convenient one-click password reset link will be dispatched to the registered email address, ensuring a straightforward recovery process. Additionally, users will have the ability to change their passwords at any time via the User Profile Menu. Moreover, users will be empowered to implement supplementary security measures such as Multi-Factor Authentication (MFA) or Two-Factor Authentication (2FA), integrate Backup Codes, and adopt other strategic mechanisms to bolster the defense against potential attack vectors.
 
-### 3.1.4. User Groups Management
+#### 3.1.4. User Groups Management
 Organizing users into specific roles or groups streamlines permission and access management. Grouping users with similar responsibilities, such as Admin, developer, designer, manager, facilitates efficient control over their access rights.
 
 ### 3.2. Event Management
