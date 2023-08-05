@@ -35,7 +35,7 @@
   - [3.5. Learning Portal](#35-learning-portal)
   - [3.6. FAQ](#36-faq)
   - [3.7. Support Ticketing System](#37-support-ticketing-system)
-  - [3.8. ChatBot: Towards Artificial General Intelligence (AGI)](#38-chatbot:-towards-artificial-general-intelligence-(agi))
+  - [3.8. ChatBot: Towards Artificial General Intelligence (AGI)](#38-chatbot-towards-artificial-general-intelligence-(agi))
   - [3.9. Push Notification](#39-push-notification)
   - [3.10 Email](#40-email)
 
