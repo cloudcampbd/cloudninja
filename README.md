@@ -131,7 +131,7 @@ Empower continuous learning with an interactive learning portal. Features includ
 ### 3.6. FAQ
 Curate a comprehensive repository of common and frequently asked questions to provide quick and convenient assistance to users.
 
-### 3.7. Support Ticket System
+### 3.7. Support Ticketing System
 Implement an organized support ticketing system, streamlining user inquiries and ensuring efficient handling of support-related activities.
 
 
