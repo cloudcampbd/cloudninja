@@ -39,7 +39,7 @@
   - [3.7. Support Ticketing System](#37-support-ticketing-system)
   - [3.8. ChatBot: Towards Artificial General Intelligence (AGI)](#38-chatbot--towards-artificial-general-intelligence-agi)
   - [3.9. Push Notification](#39-push-notification)
-  - [3.10. Email](#40-email)
+  - [3.10. Email](#310-email)
 
 - [4. Architecture and Technology Stack](#4-architecture-and-technology-stack)
   - [4.1. Systemwide Architecture Diagram](#41-systemwide-architecture-diagram)
