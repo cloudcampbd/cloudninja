@@ -191,13 +191,16 @@ For storing metadata and logs, we rely on [Amazon DynamoDB](https://aws.amazon.c
 Sensitive transaction data finds a secure home in [Amazon Aurora PostgreSQL Serverless](https://aws.amazon.com/rds/aurora/serverless/), ensuring data security, scalability, and efficiency.
 
 ### 5.4. Admin Module
+(To be filled by respective team members)
 
 ### 5.5. User Module
+(To be filled by respective team members)
 
 ### 5.6. Event Management Module
+(To be filled by respective team members)
 
 ### 5.7. Communicatin and Collaboration Module
-
+(To be filled by respective team members)
 
 ## 6. Project Roadmap
 
@@ -211,15 +214,19 @@ Sensitive transaction data finds a secure home in [Amazon Aurora PostgreSQL Serv
 ## 7. Contributor Guidelines
 
 ### 7.1. Code of Conduct
+(To be filled by respective team members)
 
 ### 7.2. Getting Started for Contributors
+(To be filled by respective team members)
 
 ### 7.3. Coding Standards
+(To be filled by respective team members)
 
 ### 7.4. Pull Request Process
+(To be filled by respective team members)
 
 ### 7.5. Issue Tracking and Bug Reporting
-
+(To be filled by respective team members)
 
 ## 8. Collaborative Tools
 
@@ -231,7 +238,7 @@ Sensitive transaction data finds a secure home in [Amazon Aurora PostgreSQL Serv
 
 ## 9. Active Team Members
 
-We embrace developers from various backgrounds and geographic locations, encouraging them to join our repository and contribute at any time. This section will comprehensively showcase all contributors and acknowledge their efforts like [here](https://www.postgresql.org/community/contributors/) facilitated by automated tools like the one in this github [repo](href="https://github.com/icecrime/vossibility-stack)
+We embrace developers from various backgrounds and geographic locations, encouraging them to join our repository and contribute at any time. This section will comprehensively showcase all contributors and acknowledge their efforts like [here](https://www.postgresql.org/community/contributors/) facilitated by automated tools like the one in this GitHub [repository](href="https://github.com/icecrime/vossibility-stack)
 
 ### 9.1. List of Contributors
 
