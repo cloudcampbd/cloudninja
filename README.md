@@ -29,7 +29,7 @@
     - [3.1.4. User Groups Management](#314-user-groups-management)
   - [3.2. Event Management](#32-event-management)
   - [3.3. Professional Profile](#33-professional-profile)
-  - [3.4. Communication and Collaboration (Similar to Slack)](#34-communication-and-collaboration-similar-to-slack)
+  - [3.4. Communication and Collaboration](#34-communication-and-collaboration)
   - [3.5. Learning Portal](#35-learning-portal)
   - [3.6. FAQ](#36-faq)
   - [3.7. Support Ticketing System](#37-support-ticketing-system)
