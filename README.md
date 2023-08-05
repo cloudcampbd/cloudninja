@@ -1,8 +1,8 @@
-<center># Cloud Ninja</center>
+# <center>Cloud Ninja</center>
 
-<center>## CloudCamp Bangladesh Community Management Platform Application</center>
+## <center>CloudCamp Bangladesh Community Management Platform Application</center>
 
-<center>## Project Document</center>
+## <center>Project Document</center>
 
 
 
