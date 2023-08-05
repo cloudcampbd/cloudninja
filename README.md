@@ -13,9 +13,9 @@
 | SL  | Name                         | Email                      | Contact Number      |
 | --- | ---------------------------- | -------------------------- | ------------------- |
 | 1   | Mohammad Zaman               | mohammad.zaman@gmail.com   | +1-917-648-0034     |
-| 2   | Md. Mahamudur Rahman Sohag   | opensohag@gmail.com        | +8801711475567      |
-| 3   | Sanjoy K Paul                | skpaul82@gmail.com         | +8801511927992      |
-| 4   | Naim Hossen                  | naimhossenpro@gmail.com    | +8801750565053      |
+| 2   | Md. Mahamudur Rahman Sohag   | opensohag@gmail.com        | +880-1711475567     |
+| 3   | Sanjoy K Paul                | skpaul82@gmail.com         | +880-1511927992     |
+| 4   | Naim Hossen                  | naimhossenpro@gmail.com    | +880-1750565053     |
 |     |                              |                            |                     |
 
 ### Document Outline
