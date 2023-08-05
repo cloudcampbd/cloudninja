@@ -98,29 +98,31 @@ The scope of the project encompasses the development of a versatile web applicat
 
 ## 3. Features and Functions
 
+We're excited to introduce a range of features that will shape the Cloud Ninja experience:
+
 ### 3.1. Enhanced User Access Management
 This functionality encompasses user registration, profile modifications, and password management, providing a comprehensive approach to user authentication and authorization.
 
 #### 3.1.1. New User Sign-Up
-Fresh users will have the option to register utilizing their email and password combination, or they can choose to employ OAuth and Social Credentials for a streamlined sign-up process.
+Users can register using email, password, or social credentials.
 
 #### 3.1.2. User Sign-In
-For users with registered accounts, the default method of access involves using their email and password credentials. However, alternate authentication pathways will also be available to cater to diverse preferences.
+Secure sign-in options, including email and password, or alternate authentication methods.
 
 #### 3.1.3. Password Recovery
-A convenient one-click password reset link will be dispatched to the registered email address, ensuring a straightforward recovery process. Additionally, users will have the ability to change their passwords at any time via the User Profile Menu. Moreover, users will be empowered to implement supplementary security measures such as Multi-Factor Authentication (MFA) or Two-Factor Authentication (2FA), integrate Backup Codes, and adopt other strategic mechanisms to bolster the defense against potential attack vectors.
+One-click password reset and multi-factor authentication options.
 
 #### 3.1.4. User Groups Management
-Organizing users into specific roles or groups streamlines permission and access management. Grouping users with similar responsibilities, such as Admin, developer, designer, manager, facilitates efficient control over their access rights.
+Efficient control over access rights through role-based user groups.
 
 ### 3.2. Event Management
 Effortlessly create and manage events, overseeing crucial aspects such as event budgets, vendor coordination, sponsorships, volunteer assignments, guest lists, and visitor registrations.
 
 ### 3.3. Professional Profile
-Craft comprehensive professional profiles showcasing essential details: Name, Designation, Company, Expertise Module, Best Native Module, Experience. Additionally, provide contact information like Email, Contact Number, LinkedIn Profile. Include educational background details, such as Highest Degree, University, Field, or Major.
+Users can showcase their expertise and experience through comprehensive professional profiles, enhancing networking opportunities.
 
 ### 3.4. Communication and Collaboration
-Enable seamless communication within the community through an in-app communication feature. This feature encompasses chat functionality, video/audio meetings, and threaded discussions. The Cloud Ninja Platform will host its communication tools, fostering real-time interaction and collaboration.
+Enable seamless communication within the community through in-app chat, video/audio meetings, and threaded discussions.
 
 ### 3.5. Learning Portal
 Empower continuous learning with an interactive learning portal. Features include engaging interactive lessons, Progress Tracking, Collaborative Learning, Multimedia Content support, Offline Mode accessibility, Cross-Platform Availability, Notifications/Reminders, and structured Learning Pathways.
@@ -131,11 +133,8 @@ Curate a comprehensive repository of common and frequently asked questions to pr
 ### 3.7. Support Ticketing System
 Implement an organized support ticketing system, streamlining user inquiries and ensuring efficient handling of support-related activities.
 
-### 3.8. ChatBot : Towards Artificial General Intelligence (AGI)
-This module represents a visionary component within the system, exemplifying our commitment to cutting-edge innovation. Anchored by a Foundation Model (LLM), our ChatBot stands as an emblem of refined craftsmanship through its meticulous tuning using popular frameworks. With its expansive capabilities, this ChatBot transcends traditional boundaries, offering an omniscient virtual companion for learners.
-
-Harnessing a multimodal framework, this ChatBot transforms into a virtual assistant capable of comprehending and responding to user inputs in various formats, including text, audio, and video. Although the road to realizing true Artificial General Intelligence (AGI) remains a formidable journey, this module signifies an exploratory foray within our application, paving the way for potential future advancements and breakthroughs.
-
+### 3.8. AI-Powered ChatBot
+An innovative ChatBot provides an omniscient virtual companion for learners, transcending traditional boundaries.
 
 ### 3.9. Push Notification
 Push notifications can be sent automatically or manually from the system to all Android and web users. Single notifications can also be sent. These notifications may include event-related news, time-sensitive information, meeting updates, and more.
@@ -145,184 +144,51 @@ The system has the capability to send emails to either all users or specific use
 
 
 ## 4. Architecture and Technology Stack
+Our architecture leverages the power of AWS services and cutting-edge technologies to ensure a scalable and efficient platform.
 
 ### 4.1. Systemwide Architecture Diagram
-Overall Architecture Diagram Version 1 Link:
+View our overall architecture diagram here:
 https://app.diagrams.net/#G1YEN4bdtK-qzEjNZu6zI3n4FlZgUnd1f5
 
 ### 4.2. UI/UX Design Mockup
-Figma Design Mockup Version 1 Link:
+Explore the Figma Design Mockup here.
 
-### 4.3. Frontend Technologies Architecture Diagram
-List of frontend technologies used. Architecture diagram depicts how our frontend communicates with the backend.
-Frontend Architecture Diagram Version 1 Link:
+### 4.3. Frontend Technologies
+Our frontend communicates seamlessly with the backend. View the frontend architecture diagram here.
 
-### 4.4. Microservices Design Architecture Diagram
-MicroServices Architecture Diagram Version 1 Link:
+### 4.4. Microservices Design
+Discover our microservices design architecture here.
 
-### 4.5. Backend Technologies Architecture Diagram
-Here we see how our overall backend system works in the diagram.
-Backend Architecture Diagram Version 1 Link:
+### 4.5. Backend Technologies
+Learn how our backend system works here.
 
-### 4.6. AI/ML, Generative AI Architecture Diagram
-We explore the AI/ML and Generative AI services for our application here. Diagram shows the Machine Learning Pipelines in detail.
+### 4.6. AI/ML and Generative AI
+Explore our AI/ML and Generative AI architecture here.
 
-AI/ML Architecture Diagram Version 1 Link:
+### 4.7. Database Management
 
-### 4.7. Database Management Architecture Diagram
+Understand our database management architecture here.
 
-Database Architecture Diagram Version 1 Link:
+### 4.8. Data Management and Analytics
+Explore our data management and analytics architecture here.
 
-### 4.8. Data Management, Analytics and Visualizations Architecture Diagram
-Data Architecture Diagram Version 1:
-
-### 4.9. Payment Processing Architecture Diagram
-Payment Processing Architecture Diagram Version 1:
+### 4.9. Payment Processing
+Learn about our payment processing architecture here.
 
 ## 5. System Components
+Our platform is built on several key components, ensuring a seamless user experience and efficient operations.
 
 ### 5.1. Handling Authentication and Authorization
 
-[Amazon Cognito](https://aws.amazon.com/cognito/) is a powerful authentication and authorization service provided by Amazon Web Services (AWS) that offers a range of features and benefits for handling user identity and access control. Here's why we've chosen Amazon Cognito:
+We've chosen [Amazon Cognito](https://aws.amazon.com/cognito/) for secure user authentication and authorization. Its scalability, security features, and seamless integration with AWS services make it the perfect choice.
 
-**User Sign-Up and Sign-In:**
-Amazon Cognito provides a seamless and secure way for users to sign up and sign in to your application. It offers various options for user registration, including traditional email and password, as well as social identity federation using providers like Google, Facebook, and Amazon. This versatility ensures that users have multiple convenient methods to access our application.
+### 5.2. Storing MetaData and Logs
+For storing metadata and logs, we rely on [Amazon DynamoDB](https://aws.amazon.com/dynamodb/) and [Amazon Simple Storage Service (S3)](https://aws.amazon.com/s3/) for their scalability, durability, and data protection.
 
-**Scalability and Performance:**
-As our application grows and the user base increases, Amazon Cognito scales effortlessly to handle millions of users. It ensures that the authentication and authorization processes remain performant even under high loads. This scalability is crucial to maintaining a responsive user experience, especially during peak usage times.
 
-**Identity Federation:**
-Amazon Cognito supports integration with external identity providers, enabling single sign-on (SSO) capabilities. This means users can use their existing credentials from other services, reducing friction and making the sign-in process more user-friendly. This is particularly valuable for applications that need to integrate with other systems or services.
+### 5.3. Storing Sensitive Transaction Data
 
-**Security and Compliance:**
-Security is a top priority, and Amazon Cognito offers robust security features. It ensures data encryption both at rest and in transit, protecting user credentials and sensitive information. Additionally, it complies with industry standards and regulations, making it suitable for applications that require compliance with data protection laws.
-
-**Multi-Factor Authentication (MFA):**
-Amazon Cognito supports multi-factor authentication, adding an extra layer of security to user accounts. This helps prevent unauthorized access even if a user's password is compromised. MFA can be configured to use factors such as SMS, email, or time-based one-time passwords (TOTPs).
-
-**Customizable User Flows:**
-With Amazon Cognito, we have the flexibility to customize user sign-up, sign-in, and password recovery flows to match our application's branding and user experience. This ensures a consistent and familiar journey for our users.
-
-**User Management and Profiles:**
-Amazon Cognito provides user profile management features, allowing us to store and manage user attributes and metadata. This can be useful for personalizing the user experience and tailoring content based on user preferences.
-
-**Easy Integration with AWS Services:**
-Amazon Cognito seamlessly integrates with other AWS services, enabling us to grant secure access to resources within our AWS environment. This integration simplifies the process of controlling user access to various parts of our application.
-
-**Developer-Friendly SDKs and APIs:**
-Amazon Cognito offers software development kits (SDKs) and APIs for various platforms, making it straightforward for developers to integrate authentication and authorization functionalities into our application. This reduces development effort and accelerates time-to-market.
-
-**Managed Service:**
-Amazon Cognito is a managed service, meaning AWS takes care of operational tasks such as scaling, patching, and updates. This allows our development team to focus on building application features rather than managing infrastructure.
-
-In summary, Amazon Cognito is an ideal choice for handling authentication and authorization in our project due to its scalability, security, customization options, and seamless integration with other AWS services. It provides a comprehensive solution that enhances user security, streamlines access control, and contributes to an overall positive user experience.
-
-### 5.2. Storing MetaData, Transaction Logs and System Logs
-[Amazon DynamoDB](https://aws.amazon.com/dynamodb/) and [Amazon Simple Storage Service (S3)](https://aws.amazon.com/s3/) are key components of our technology stack for several reasons:
-
-Amazon DynamoDB:
-
-**1. High Throughput and Low Latency:** DynamoDB can handle millions of requests per second with sub-millisecond latency, making it ideal for rapid data processing.
-
-**2. Scalability:** DynamoDB is horizontally scalable, allowing easy capacity increases as your application grows without sacrificing performance.
-
-**3. Durability and Availability:** With a 99.999% availability SLA, DynamoDB ensures exceptional data durability and accessibility.
-
-**4. Security:** DynamoDB offers robust security features, including encryption at rest and in transit, protecting data from unauthorized access.
-
-**5. Key-Value Data Model:** DynamoDB's simple key-value data model enables straightforward data storage and retrieval.
-
-**6. Consistent Reads and Writes:** DynamoDB ensures consistent and reliable reads and writes for accurate and up-to-date data.
-
-**7. Automatic Scaling:** DynamoDB adjusts capacity based on demand, optimizing performance and reducing manual intervention.
-
-**8. In-Memory Caching:** In-memory caching improves performance and reduces latency for frequently accessed data.
-
-**9. Global Distribution:** DynamoDB's global distribution allows data replication across regions, enhancing availability and reducing access latency.
-
-**10. Flexible Schema:** DynamoDB accommodates evolving data models, allowing modification of data structures over time.
-
-**11. Backup and Restore:** DynamoDB supports on-demand backups for data recovery or migration.
-
-**12. Time-to-Live (TTL):** DynamoDB's TTL feature simplifies data cleanup and management by defining data expiration.
-
-**13. Stream Data:** DynamoDB Streams capture data changes, enabling real-time processing and triggers for actions like Lambda functions.
-
-**14. Global Tables:** DynamoDB Global Tables replicate data across regions for high availability and low-latency access.
-
-**15. Data Types:** DynamoDB supports diverse data types, catering to various storage needs.
-
-**16. Atomic Counters:** DynamoDB offers atomic counters for efficient numeric attribute operations.
-
-**17. Secondary Indexes:** Secondary indexes provide enhanced query flexibility by allowing data retrieval based on attributes other than the primary key.
-
-**18. Data Consistency Models:** DynamoDB offers strong and eventual consistency models, tailored to application needs.
-
-Amazon DynamoDB provides a powerful NoSQL database solution, ensuring scalability, performance, and data integrity to meet modern application demands.
-
-Amazon S3:
-
-**1. Scalability:** S3 scales limitlessly to accommodate any data volume and supports concurrent access.
-
-**2. Durability and Availability:** S3 ensures data durability and availability by replicating across geographically distinct Availability Zones.
-
-**3. Data Protection:** S3 supports encryption at rest and fine-grained access controls for secure data storage.
-
-**4 Data Transfer Acceleration:** S3's Transfer Acceleration speeds up data uploads and downloads using Amazon CloudFront's edge locations.
-
-**5. Versioning:** S3 enables versioning, preserving data iterations and simplifying recovery from accidental changes.
-
-**6. Data Lifecycle Management:** S3 automates object transitions between storage classes and deletion based on policies.
-
-**7. Cross-Region Replication:** S3 replicates data across AWS regions, enhancing resilience and reducing latency.
-
-**8. Data Retrieval Options:** S3 offers retrieval options like Standard, Intelligent-Tiering, and Glacier to balance cost and performance.
-
-**9. Event Notifications:** S3 triggers AWS Lambda functions or actions in response to object creation or modification.
-
-**10. Data Access Auditing:** S3's access logs capture requests, facilitating detailed audit trails and compliance monitoring.
-
-**11. Multipart Upload:** S3 efficiently uploads large objects in parallel by breaking them into smaller parts.
-
-**12. Object Tagging:** S3 supports metadata assignment through tags for better data organization.
-
-**13. Object Locking:** S3's object locking enhances data immutability by preventing deletion or modification for a defined period.
-
-**14. Presigned URLs:** S3 generates presigned URLs for temporary, secure data access, useful for sharing with third parties.
-
-**15. Data Replication:** S3 replicates data to other AWS accounts for collaboration or disaster recovery.
-
-**16. Object Expiry and Lifecycle Policies:** S3 automates data retention and archiving through object expiry and lifecycle policies.
-
-Amazon S3 provides a versatile storage solution, catering to a wide range of storage and data management needs.
-
-
-### 5.3. Storing Structured Sensitive Transaction Data
-
-We opt for Amazon Aurora PostgreSQL Serverless for storing sensitive transaction data due to its unique capabilities that align perfectly with our data security requirements:
-
-**1. Security and Encryption:** Amazon Aurora PostgreSQL Serverless provides robust security features, including encryption at rest and in transit. This ensures that sensitive transaction data remains protected from unauthorized access and potential breaches.
-
-**2. Fine-Grained Access Control:** With Amazon Aurora PostgreSQL's advanced access control mechanisms, we can implement granular permission settings, allowing us to restrict data access to authorized personnel only.
-
-**3. Scalability:** The serverless nature of Amazon Aurora PostgreSQL allows the database to automatically scale its capacity based on demand. This ensures that our application can handle varying workloads while maintaining optimal performance for sensitive transaction data operations.
-
-**4. Data Integrity:** Amazon Aurora offers data integrity features, such as crash recovery and self-healing storage, which contribute to the reliability and accuracy of sensitive transaction data.
-
-**5. High Availability:** Amazon Aurora PostgreSQL provides automated failover, data replication, and backups, ensuring that sensitive transaction data remains available even in the event of hardware failures or other disruptions.
-
-**6. Pay-as-You-Go Model:** The serverless pricing model of Amazon Aurora PostgreSQL means we only pay for the actual resources consumed. This cost-efficiency is particularly beneficial for managing sensitive transaction data, as it allows us to allocate resources as needed without unnecessary expenses.
-
-**7. Automatic Backups:** Amazon Aurora PostgreSQL Serverless offers automated backups, enabling us to create consistent snapshots of sensitive transaction data. This supports data recovery and minimizes potential data loss in case of any unforeseen issues.
-
-**8. Data Auditing and Monitoring:** Amazon Aurora PostgreSQL's auditing and monitoring capabilities allow us to track and analyze access patterns and changes to sensitive transaction data, enhancing overall data security and compliance.
-
-**9. Replication and Read Scalability:** With Amazon Aurora's replication capabilities, we can set up read replicas to offload read traffic and further enhance performance, all while maintaining the security of sensitive transaction data.
-
-**10. Managed Service:** Amazon Aurora PostgreSQL Serverless is fully managed by AWS, reducing our administrative overhead and ensuring that we can focus on utilizing its features to secure and manage our sensitive transaction data effectively.
-
-Incorporating Amazon Aurora PostgreSQL Serverless as our data storage solution for sensitive transaction data aligns with our commitment to data security, scalability, and efficiency, while also offering the flexibility to adapt to changing workload demands.
-
+Sensitive transaction data finds a secure home in [Amazon Aurora PostgreSQL Serverless](https://aws.amazon.com/rds/aurora/serverless/), ensuring data security, scalability, and efficiency.
 
 ### 5.4. Admin Module
 
