@@ -31,24 +31,24 @@
   - [3.5. Learning Portal](#35-learning-portal)
   - [3.6. FAQ](#36-faq)
   - [3.7. Support Ticketing System](#37-support-ticketing-system)
-  - [3.8. ChatBot: Towards Artificial General Intelligence (AGI)](#38-chatbot--towards-artificial-general-intelligence-agi)
+  - [3.8. AI Powered ChatBot](#38-ai-powered-chatbot)
   - [3.9. Push Notification](#39-push-notification)
   - [3.10. Email](#310-email)
 
 - [4. Architecture and Technology Stack](#4-architecture-and-technology-stack)
   - [4.1. Systemwide Architecture Diagram](#41-systemwide-architecture-diagram)
   - [4.2. UI/UX Design Mockup](#42-uiux-design-mockup)
-  - [4.3. Frontend Technologies Architecture Diagram](#43-frontend-technologies-architecture-diagram)
-  - [4.4. Microservices Design Architecture Diagram](#44-microservices-design-architecture-diagram)
-  - [4.5. Backend Technologies Architecture Diagram](#45-backend-technologies-architecture-diagram)
-  - [4.6. AI/ML, Generative AI Architecture Diagram](#46-aiml-generative-ai-architecture-diagram)
-  - [4.7. Database Management Architecture Diagram](#47-database-management-architecture-diagram)
-  - [4.8. Data Management, Analytics and Visualizations Architecture Diagram](#48-data-management-analytics-and-visualizations-architecture-diagram)
-  - [4.9. Payment Processing Architecture Diagram](#49-payment-processing-architecture-diagram)
+  - [4.3. Frontend Technologies](#43-frontend-technologies)
+  - [4.4. Microservices Design](#44-microservices-design)
+  - [4.5. Backend Technologies](#45-backend-technologies)
+  - [4.6. AI/ML and Generative AI](#46-aiml-and-generative-ai)
+  - [4.7. Database Management](#47-database-management)
+  - [4.8. Data Management and analytics](#48-data-management-and-analytics)
+  - [4.9. Payment Processing](#49-payment-processing)
 - [5. System Components](#5-system-components)
   - [5.1. Handling Authentication and Authorization](#51-handling-authentication-and-authorization)
-  - [5.2. Storing MetaData, Transaction Logs and System Logs](#52-storing-metadata-transaction-logs-and-system-logs)
-  - [5.3. Storing Structured Sensitive Transaction Data](#53-storing-structured-sensitive-transaction-data)
+  - [5.2. Storing MetaData and Logs](#52-storing-metadata-and-logs)
+  - [5.3. Storing Sensitive Transaction Data](#53-storing-sensitive-transaction-data)
   - [5.4. Admin Module](#54-admin-module)
   - [5.5. User Module](#55-user-module)
   - [5.6. Event Management Module](#56-event-management-module)
@@ -137,7 +137,7 @@ Implement an organized support ticketing system, streamlining user inquiries and
 An innovative ChatBot provides an omniscient virtual companion for learners, transcending traditional boundaries.
 
 ### 3.9. Push Notification
-Push notifications can be sent automatically or manually from the system to all Android and web users. Single notifications can also be sent. These notifications may include event-related news, time-sensitive information, meeting updates, and more.
+Push notifications can be sent automatically or manually from the system to all mobile and web users. Single notifications can also be sent. These notifications may include event-related news, time-sensitive information, meeting updates, and more.
 
 ### 3.10. Email
 The system has the capability to send emails to either all users or specific users. These emails can contain updates about news, links, meeting information, campaigns, and other relevant details. The notifications can be scheduled or sent manually.
