@@ -43,13 +43,14 @@
 
 - [4. Architecture and Technology Stack](#4-architecture-and-technology-stack)
   - [4.1. Systemwide Architecture Diagram](#41-systemwide-architecture-diagram)
-  - [4.2. Microservices Design Architecture Diagram](#42-microservices-design-architecture-diagram)
+  - [4.2. UI/UX Design Mockup](#42-ui-ux-design-mockup)
   - [4.3. Frontend Technologies Architecture Diagram](#43-frontend-technologies-architecture-diagram)
-  - [4.4. Backend Technologies Architecture Diagram](#44-backend-technologies-architecture-diagram)
-  - [4.5. AI/ML, Generative AI Architecture Diagram](#45-aiml-generative-ai-architecture-diagram)
-  - [4.6. Database Management Architecture Diagram](#46-database-management-architecture-diagram)
-  - [4.7. Real Time Stream Data, Analytics and Data Visualizations Architecture Diagram](#47-real-time-stream-data-analytics-and-data-visualizations-architecture-diagram)
-  - [4.8. Payment Processing Architecture Diagram](#48-payment-processing-architecture-diagram)
+  - [4.4. Microservices Design Architecture Diagram](#44-microservices-design-architecture-diagram)
+  - [4.5. Backend Technologies Architecture Diagram](#45-backend-technologies-architecture-diagram)
+  - [4.6. AI/ML, Generative AI Architecture Diagram](#46-aiml-generative-ai-architecture-diagram)
+  - [4.7. Database Management Architecture Diagram](#47-database-management-architecture-diagram)
+  - [4.8. Data Management, Analytics and Visualizations Architecure Diagram](#48-data-managememt-analytics-and-visualizations-architecture-diagram)
+  - [4.9. Payment Processing Architecture Diagram](#49-payment-processing-architecture-diagram)
 - [5. System Components](#5-system-components)
   - [5.1. Handling Authentication and Authorization](#51-handling-authentication-and-authorization)
   - [5.2. Storing MetaData, Transaction Logs and System Logs](#52-storing-metadata-transaction-logs-and-system-logs)
@@ -178,7 +179,7 @@ AI/ML Architecture Diagram Version 1 Link:
 
 Database Architecture Diagram Version 1 Link:
 
-### 4.8. Data Management, Analytics and Visualization Diagram
+### 4.8. Data Management, Analytics and Visualizations Architecture Diagram
 Data Architecture Diagram Version 1:
 
 ### 4.9. Payment Processing Architecture Diagram
