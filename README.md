@@ -2,12 +2,6 @@
 
 ## CloudCamp Bangladesh Community Management Application
 
-### Project Document
-
-
-
-
-
 ## Authors
 
 | SL  | Name                         | Email                      | Contact Number      |
