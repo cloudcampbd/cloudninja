@@ -27,8 +27,8 @@
   - [2.3. Scope](#23-scope)
 - [3. Features and Functions](#3-features-and-functions)
   - [3.1. Enhanned User Access Management](#31-enhanced-user-access-management)
-    - [3.1.1. New User Registration](#311-new-user-registration)
-    - [3.1.2. User Log In](#312-user-log-in)
+    - [3.1.1. New User Sign-Up](#311-new-user-sign-up)
+    - [3.1.2. User Sign-In](#312-user-sign-in)
     - [3.1.3. Password Recovery](#313-password-recovery)
     - [3.1.4. User Groups Management](#314-user-groups-management)
   - [3.2. Event Management](#32-event-management)
@@ -107,10 +107,10 @@ The scope of the project encompasses the development of a versatile web applicat
 ### 3.1. Enhanced User Access Management
 This functionality encompasses user registration, profile modifications, and password management, providing a comprehensive approach to user authentication and authorization.
 
-#### 3.1.1. New User Registration
+#### 3.1.1. New User Sign-Up
 Fresh users will have the option to register utilizing their email and password combination, or they can choose to employ OAuth and Social Credentials for a streamlined sign-up process.
 
-#### 3.1.2. User Log-In
+#### 3.1.2. User Sign-In
 For users with registered accounts, the default method of access involves using their email and password credentials. However, alternate authentication pathways will also be available to cater to diverse preferences.
 
 #### 3.1.3. Password Recovery
@@ -188,11 +188,44 @@ Payment Processing Architecture Diagram Version 1:
 ## 5. System Components
 
 ### 5.1. Handling Authentication and Authorization
-Amazon Cognito
+
+[Link Amazon Cognito](https://aws.amazon.com/cognito/) is a powerful authentication and authorization service provided by Amazon Web Services (AWS) that offers a range of features and benefits for handling user identity and access control. In the context of your project's 5.1. Handling Authentication and Authorization section, here's an elaboration on why you've chosen Amazon Cognito:
+
+**User Sign-Up and Sign-In:**
+Amazon Cognito provides a seamless and secure way for users to sign up and sign in to your application. It offers various options for user registration, including traditional email and password, as well as social identity federation using providers like Google, Facebook, and Amazon. This versatility ensures that users have multiple convenient methods to access your application.
+
+**Scalability and Performance:**
+As your application grows and the user base increases, Amazon Cognito scales effortlessly to handle millions of users. It ensures that the authentication and authorization processes remain performant even under high loads. This scalability is crucial to maintaining a responsive user experience, especially during peak usage times.
+
+**Identity Federation:**
+Amazon Cognito supports integration with external identity providers, enabling single sign-on (SSO) capabilities. This means users can use their existing credentials from other services, reducing friction and making the sign-in process more user-friendly. This is particularly valuable for applications that need to integrate with other systems or services.
+
+**Security and Compliance:**
+Security is a top priority, and Amazon Cognito offers robust security features. It ensures data encryption both at rest and in transit, protecting user credentials and sensitive information. Additionally, it complies with industry standards and regulations, making it suitable for applications that require compliance with data protection laws.
+
+**Multi-Factor Authentication (MFA):**
+Amazon Cognito supports multi-factor authentication, adding an extra layer of security to user accounts. This helps prevent unauthorized access even if a user's password is compromised. MFA can be configured to use factors such as SMS, email, or time-based one-time passwords (TOTPs).
+
+**Customizable User Flows:**
+With Amazon Cognito, you have the flexibility to customize user sign-up, sign-in, and password recovery flows to match your application's branding and user experience. This ensures a consistent and familiar journey for your users.
+
+**User Management and Profiles:**
+Amazon Cognito provides user profile management features, allowing you to store and manage user attributes and metadata. This can be useful for personalizing the user experience and tailoring content based on user preferences.
+
+**Easy Integration with AWS Services:**
+Amazon Cognito seamlessly integrates with other AWS services, enabling you to grant secure access to resources within your AWS environment. This integration simplifies the process of controlling user access to various parts of your application.
+
+**Developer-Friendly SDKs and APIs:**
+Amazon Cognito offers software development kits (SDKs) and APIs for various platforms, making it straightforward for developers to integrate authentication and authorization functionalities into your application. This reduces development effort and accelerates time-to-market.
+
+**Managed Service:**
+Amazon Cognito is a managed service, meaning AWS takes care of operational tasks such as scaling, patching, and updates. This allows your development team to focus on building application features rather than managing infrastructure.
+
+In summary, Amazon Cognito is an ideal choice for handling authentication and authorization in your project due to its scalability, security, customization options, and seamless integration with other AWS services. It provides a comprehensive solution that enhances user security, streamlines access control, and contributes to an overall positive user experience.
 
 ### 5.2. Storing MetaData, Transaction Logs and System Logs
 
-Amazon DynamoDB and Amazon Simple Storage Service (S3) are key components of our technology stack for several reasons:
+[Link Amazon DynamoDB](https://aws.amazon.com/dynamodb/) and [Link Amazon Simple Storage Service (S3)](https://aws.amazon.com/s3/) are key components of our technology stack for several reasons:
 
 Amazon DynamoDB:
 
