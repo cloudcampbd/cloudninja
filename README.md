@@ -4,9 +4,18 @@
 
 ## Project Document
 
+## Authors
+
+| SL  | Name                         | Email                      | Contact Number      |
+| --- | ---------------------------- | -------------------------- | ------------------- |
+| 1   | Mohammad Zaman               | mohammad.zaman@gmail.com   | +1-917-648-0034     |
+| 2   | Md. Mahamudur Rahman Sohag   | opensohag@gmail.com        | +8801711475567      |
+| 3   | Sanjoy K Paul                | skpaul82@gmail.com         | +8801511927992      |
+| 4   | Naim Hossen                  | naimhossenpro@gmail.com    | +8801750565053      |
+|     |                              |                            |                     |
+
 ### Document Outline
 
-- [Authors](#authors)
 - [1. Introduction](#1-introduction)
 - [2. Application Overview](#2-application-overview)
   - [2.1. Background](#21-background)
@@ -17,7 +26,7 @@
     - [3.1.1. New User Registration](#311-new-user-registration)
     - [3.1.2. User Log In](#312-user-log-in)
     - [3.1.3. Password Recovery](#313-password-recovery)
-    - [3.1.4. User Groups Management](#314-users-group-management)
+    - [3.1.4. User Groups Management](#314-user-groups-management)
   - [3.2. Event Management](#32-event-management)
   - [3.3. Professional Profile](#33-professional-profile)
   - [3.4. Communication and Collaboration (Similar to Slack)](#34-communication-and-collaboration-similar-to-slack)
@@ -39,25 +48,16 @@
   - [4.8. Payment Processing Architecture Diagram](#48-payment-processing-architecture-diagram)
 - [5. System Components](#5-system-components)
   - [5.1. Handling Authentication and Authorization](#51-handling-authentication-and-authorization)
-  - [5.2. Store MetaData, Transaction Logs and System Logs](#52-store-metadata-transaction-logs-and-system-logs)
-  - [5.3. Store Structured Sensitive Transaction Data](#53-store-structured-sensitive-transaction-data)
+  - [5.2. Storing MetaData, Transaction Logs and System Logs](#52-storing-metadata-transaction-logs-and-system-logs)
+  - [5.3. Storing Structured Sensitive Transaction Data](#53-storing-structured-sensitive-transaction-data)
   - [5.4. Admin Module](#54-admin-module)
   - [5.5. User Module](#55-user-module)
   - [5.6. Event Management Module](#56-event-management-module)
-  - [5.7. Communication and Collaboration Module (Similar to Slack)](#57-communication-and-collaboration-module-similar-to-slack)
+  - [5.7. Communication and Collaboration Module](#57-communication-and-collaboration-module)
 - [6. Project Roadmap](#6-project-roadmap)
-  - [6.1. Requirements Gathering and Planning](#61-requirements-gathering-and-planning)
-  - [6.2. Frontend Development](#62-frontend-development)
-  - [6.3. Backend Development](#63-backend-development)
-  - [6.4. AI Development](#64-ai-development)
-  - [6.5. Integration and Testing](#65-integration-and-testing)
-  - [6.6. Deployment and Launch](#66-deployment-and-launch)
-  - [6.7. Automate Everything!](#67-automate-everything)
-    - [6.7.1. DevOps](#671-devops)
-    - [6.7.2. DevSecOps](#672-devsecops)
-    - [6.7.3. MLOps](#673-mlops)
-    - [6.7.4. MLSecOps: Machine Learning Security and Operations](#674-mlsecops-machine-learning-security-and-operations)
-  - [6.8. Ongoing Backup, Maintenance and Updates](#68-ongoing-backup-maintenance-and-updates)
+  - [6.1. Development Phases](#61-development-phases)
+  - [6.2. DevOps and Automation](#62-devops-and-automation)
+  - [6.3. Ongoing Backup, Maintenance, and Updates](#63-ongoing-backup-maintenance-and-updates)
 - [7. Contributor Guidelines](#7-contributor-guidelines)
   - [7.1. Code of Conduct](#71-code-of-conduct)
   - [7.2. Getting Started for Contributors](#72-getting-started-for-contributors)
@@ -68,18 +68,13 @@
   - [8.1. GitHub Repository](#81-github-repository)
   - [8.2. Communication Channels](#82-communication-channels)
   - [8.3. Documentation Portal](#83-documentation-portal)
-  - [8.4. Project Management Tool](#84-project-management-tool)
+  - [8.4. Project Management Tools](#84-project-management-tools)
 - [9. Active Team Members](#9-active-team-members)
+  - [9.1. List of Contributors](#91-list-of-contributos)
 - [10. Leadership and Governance](#10-leadership-and-governance)
+  - [10.1. Roles and Responsibilities](#101-roles-and-responsibilities)
+    
 
-## Authors
-
-| SL  | Name                         | Email                      | Contact Number      |
-| --- | ---------------------------- | -------------------------- | ------------------- |
-| 1   | Mohammad Zaman               | mohammad.zaman@gmail.com   | +1-917-648-0034     |
-| 2   | Md. Mahamudur Rahman Sohag   | opensohag@gmail.com        | +8801711475567     |
-| 3   | Sanjoy K Paul                | skpaul82@gmail.com         | +8801511927992     |
-| 4   | Naim Hossen                  | naimhossenpro@gmail.com    | +8801750565053     |
 
 ## 1. Introduction
 
@@ -125,7 +120,7 @@ Effortlessly create and manage events, overseeing crucial aspects such as event 
 ### 3.3. Professional Profile
 Craft comprehensive professional profiles showcasing essential details: Name, Designation, Company, Expertise Module, Best Native Module, Experience. Additionally, provide contact information like Email, Contact Number, LinkedIn Profile. Include educational background details, such as Highest Degree, University, Field, or Major.
 
-### 3.4. Communication and Collaboration (Similar to Slack)
+### 3.4. Communication and Collaboration
 Enable seamless communication within the community through an in-app communication feature. This feature encompasses chat functionality, video/audio meetings, and threaded discussions. The Cloud Ninja Platform will host its communication tools, fostering real-time interaction and collaboration.
 
 ### 3.5. Learning Portal
@@ -185,4 +180,207 @@ Data Architecture Diagram Version 1:
 
 ### 4.9. Payment Processing Architecture Diagram
 Payment Processing Architecture Diagram Version 1:
+
+## 5. System Components
+
+### 5.1. Handling Authentication and Authorization
+Amazon Cognito
+
+### 5.2. Storing MetaData, Transaction Logs and System Logs
+
+Amazon DynamoDB and Amazon Simple Storage Service (S3) are key components of our technology stack for several reasons:
+
+Amazon DynamoDB:
+
+**1. High Throughput and Low Latency:** DynamoDB can handle millions of requests per second with sub-millisecond latency, making it ideal for rapid data processing.
+
+**2. Scalability:** DynamoDB is horizontally scalable, allowing easy capacity increases as your application grows without sacrificing performance.
+
+**3. Durability and Availability:** With a 99.999% availability SLA, DynamoDB ensures exceptional data durability and accessibility.
+
+**4. Security:** DynamoDB offers robust security features, including encryption at rest and in transit, protecting data from unauthorized access.
+
+**5. Key-Value Data Model:** DynamoDB's simple key-value data model enables straightforward data storage and retrieval.
+
+**6. Consistent Reads and Writes:** DynamoDB ensures consistent and reliable reads and writes for accurate and up-to-date data.
+
+**7. Automatic Scaling:** DynamoDB adjusts capacity based on demand, optimizing performance and reducing manual intervention.
+
+**8. In-Memory Caching:** In-memory caching improves performance and reduces latency for frequently accessed data.
+
+**9. Global Distribution:** DynamoDB's global distribution allows data replication across regions, enhancing availability and reducing access latency.
+
+**10. Flexible Schema:** DynamoDB accommodates evolving data models, allowing modification of data structures over time.
+
+**11. Backup and Restore:** DynamoDB supports on-demand backups for data recovery or migration.
+
+**12. Time-to-Live (TTL):** DynamoDB's TTL feature simplifies data cleanup and management by defining data expiration.
+
+**13. Stream Data:** DynamoDB Streams capture data changes, enabling real-time processing and triggers for actions like Lambda functions.
+
+**14. Global Tables:** DynamoDB Global Tables replicate data across regions for high availability and low-latency access.
+
+**15. Data Types:** DynamoDB supports diverse data types, catering to various storage needs.
+
+**16. Atomic Counters:** DynamoDB offers atomic counters for efficient numeric attribute operations.
+
+**17. Secondary Indexes:** Secondary indexes provide enhanced query flexibility by allowing data retrieval based on attributes other than the primary key.
+
+**18. Data Consistency Models:** DynamoDB offers strong and eventual consistency models, tailored to application needs.
+
+Amazon DynamoDB provides a powerful NoSQL database solution, ensuring scalability, performance, and data integrity to meet modern application demands.
+
+Amazon S3:
+
+**1. Scalability:** S3 scales limitlessly to accommodate any data volume and supports concurrent access.
+
+**2. Durability and Availability:** S3 ensures data durability and availability by replicating across geographically distinct Availability Zones.
+
+**3. Data Protection:** S3 supports encryption at rest and fine-grained access controls for secure data storage.
+
+**4 Data Transfer Acceleration:** S3's Transfer Acceleration speeds up data uploads and downloads using Amazon CloudFront's edge locations.
+
+**5. Versioning:** S3 enables versioning, preserving data iterations and simplifying recovery from accidental changes.
+
+**6. Data Lifecycle Management:** S3 automates object transitions between storage classes and deletion based on policies.
+
+**7. Cross-Region Replication:** S3 replicates data across AWS regions, enhancing resilience and reducing latency.
+
+**8. Data Retrieval Options:** S3 offers retrieval options like Standard, Intelligent-Tiering, and Glacier to balance cost and performance.
+
+**9. Event Notifications:** S3 triggers AWS Lambda functions or actions in response to object creation or modification.
+
+**10. Data Access Auditing:** S3's access logs capture requests, facilitating detailed audit trails and compliance monitoring.
+
+**11. Multipart Upload:** S3 efficiently uploads large objects in parallel by breaking them into smaller parts.
+
+**12. Object Tagging:** S3 supports metadata assignment through tags for better data organization.
+
+**13. Object Locking:** S3's object locking enhances data immutability by preventing deletion or modification for a defined period.
+
+**14. Presigned URLs:** S3 generates presigned URLs for temporary, secure data access, useful for sharing with third parties.
+
+**15. Data Replication:** S3 replicates data to other AWS accounts for collaboration or disaster recovery.
+
+**16. Object Expiry and Lifecycle Policies:** S3 automates data retention and archiving through object expiry and lifecycle policies.
+
+Amazon S3 provides a versatile storage solution, catering to a wide range of storage and data management needs.
+
+
+### 5.3. Storing Structured Sensitive Transaction Data
+
+We opt for Amazon Aurora PostgreSQL Serverless for storing sensitive transaction data due to its unique capabilities that align perfectly with our data security requirements:
+
+**1. Security and Encryption:** Amazon Aurora PostgreSQL Serverless provides robust security features, including encryption at rest and in transit. This ensures that sensitive transaction data remains protected from unauthorized access and potential breaches.
+
+**2. Fine-Grained Access Control:** With Amazon Aurora PostgreSQL's advanced access control mechanisms, we can implement granular permission settings, allowing us to restrict data access to authorized personnel only.
+
+**3. Scalability:** The serverless nature of Amazon Aurora PostgreSQL allows the database to automatically scale its capacity based on demand. This ensures that our application can handle varying workloads while maintaining optimal performance for sensitive transaction data operations.
+
+**4. Data Integrity:** Amazon Aurora offers data integrity features, such as crash recovery and self-healing storage, which contribute to the reliability and accuracy of sensitive transaction data.
+
+**5. High Availability:** Amazon Aurora PostgreSQL provides automated failover, data replication, and backups, ensuring that sensitive transaction data remains available even in the event of hardware failures or other disruptions.
+
+**6. Pay-as-You-Go Model:** The serverless pricing model of Amazon Aurora PostgreSQL means we only pay for the actual resources consumed. This cost-efficiency is particularly beneficial for managing sensitive transaction data, as it allows us to allocate resources as needed without unnecessary expenses.
+
+**7. Automatic Backups:** Amazon Aurora PostgreSQL Serverless offers automated backups, enabling us to create consistent snapshots of sensitive transaction data. This supports data recovery and minimizes potential data loss in case of any unforeseen issues.
+
+**8. Data Auditing and Monitoring:** Amazon Aurora PostgreSQL's auditing and monitoring capabilities allow us to track and analyze access patterns and changes to sensitive transaction data, enhancing overall data security and compliance.
+
+**9. Replication and Read Scalability:** With Amazon Aurora's replication capabilities, we can set up read replicas to offload read traffic and further enhance performance, all while maintaining the security of sensitive transaction data.
+
+**10. Managed Service:** Amazon Aurora PostgreSQL Serverless is fully managed by AWS, reducing our administrative overhead and ensuring that we can focus on utilizing its features to secure and manage our sensitive transaction data effectively.
+
+Incorporating Amazon Aurora PostgreSQL Serverless as our data storage solution for sensitive transaction data aligns with our commitment to data security, scalability, and efficiency, while also offering the flexibility to adapt to changing workload demands.
+
+
+### 5.4. Admin Module
+
+### 5.5. User Module
+
+### 5.6. Event Management Module
+
+### 5.7. Communicatin and Collaboration Module
+
+
+## 6. Project Roadmap
+
+### 6.1. Development Phases
+
+### 6.2. DevOps and Automation
+
+### 6.3. Ongoing Backup, Maintenance and Updates
+
+
+## 7. Contributor Guidelines
+
+### 7.1. Code of Conduct
+
+### 7.2. Getting Started for Contributors
+
+### 7.3. Coding Standards
+
+### 7.4. Pull Request Process
+
+### 7.5. Issue Tracking and Bug Reporting
+
+
+## 8. Collaborative Tools
+
+### 8.1. GitHub Repository
+### 8.2. Communication Channels
+### 8.3. Documentation Portal
+### 8.4. Project Management Tools
+
+
+## 9. Active Team Members
+
+We embrace developers from various backgrounds and geographic locations, encouraging them to join our repository and contribute at any time. This section will comprehensively showcase all contributors and acknowledge their efforts like [Link here](https://www.postgresql.org/community/contributors/), facilitated by automated tools like the one in this github [Link repo](https://github.com/icecrime/vossibility-stack).
+
+### 9.1. List of Contributors
+
+## 10. Leadership and Governance
+
+While the project operates as an open-source endeavor, specific guidelines are imperative to oversee its functions. This is crucial due to the project's engagement with potent AI technologies, particularly the rapidly advancing Generative AI capabilities. These capabilities introduce significant risk factors that could potentially lead to damage on both personal and societal levels.
+
+The formal structure of the project involves the following essential roles and responsibilities:
+
+### 10.1. Roles and Responsibilities
+
+**Evangelist / Visionary Sponsor:**
+
+Shapes and communicates the project's overarching vision and strategic direction.
+Advocates for the project, garnering support and resources from stakeholders.
+Provides high-level guidance and ensures alignment with organizational goals.
+Inspires and motivates the team by outlining the project's long-term impact.
+
+**Project Coordinator / Director:**
+
+Orchestrates project management activities, ensuring that all tasks are coordinated.
+Develops and communicates the project plan, timeline, and milestones.
+Manages resources, budget, and potential risks to keep the project on track.
+Facilitates communication among team members, stakeholders, and leadership.
+
+**Technology Strategist:**
+
+Evaluates and oversees the technological landscape, making informed decisions about tools, frameworks, and architecture.
+Identifies opportunities to leverage new technologies for project optimization.
+Ensures that the project's technical direction aligns with the organization's overall technology strategy.
+Provides technical guidance and mentorship to the development team.
+
+**Active Developer:**
+
+Actively participates in project development by contributing code and technical expertise.
+Collaborates with other developers, testers, and stakeholders to implement features and resolve issues.
+Helps make design and implementation decisions based on their in-depth understanding of the project's codebase.
+Takes ownership of specific tasks and ensures their successful completion.
+
+**Reviewer and Approver:**
+
+Safeguards the quality and integrity of contributions by reviewing code, documentation, and design proposals.
+Ensures that coding standards, best practices, and guidelines are followed.
+Provides constructive feedback to developers and contributors to improve the overall quality of the project.
+Approves contributions for integration into the project's codebase after thorough review.
+
+These roles work in harmony to drive the project's success, from establishing a clear vision and strategy to executing the technical development and maintaining the quality of the project. Effective collaboration and communication among these roles are crucial for delivering a high-quality project that meets its objectives and aligns with the organization's goals.
 
