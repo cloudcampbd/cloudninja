@@ -365,7 +365,7 @@ The formal structure of the project involves the following essential roles and r
 - Provides constructive feedback.
 - Approves contributions for integration.
 
-### - Roles collaborate for project success:
+### Roles collaborate for project success:
 - Vision and strategy establishment.
 - Technical execution and quality maintenance.
 - Effective communication and collaboration.
