@@ -190,17 +190,43 @@ For storing metadata and logs, we rely on [Amazon DynamoDB](https://aws.amazon.c
 
 Sensitive transaction data finds a secure home in [Amazon Aurora PostgreSQL Serverless](https://aws.amazon.com/rds/aurora/serverless/), ensuring data security, scalability, and efficiency.
 
+
 ### 5.4. Admin Module
-(To be filled by respective team members)
+The Admin Module plays a pivotal role in overseeing the overall functionality and management of the Cloud Ninja Community Management Application. It provides administrators with comprehensive tools to manage user roles, permissions, and system settings. Some key features and responsibilities of the Admin Module include:
+
+User Role Management: Admins can define and assign different user roles based on their responsibilities within the community. This helps ensure proper access control and data security.
+
+Content Moderation: The Admin Module includes content moderation capabilities, allowing administrators to review and moderate user-generated content to maintain a positive and respectful community environment.
+
+Analytics and Insights: Administrators can access detailed analytics and insights about user engagement, event participation, and overall community growth. This data assists in making informed decisions to enhance the platform's effectiveness.
 
 ### 5.5. User Module
-(To be filled by respective team members)
+The User Module focuses on providing a seamless and personalized experience for every user of the Cloud Ninja Community Management Application. This module enhances user engagement and satisfaction through various features:
+
+Personalized Profiles: Users can create and customize their profiles, adding information about their professional background, interests, and skills. This helps foster meaningful connections within the community.
+
+Activity Feeds: The User Module includes personalized activity feeds, displaying updates, events, and discussions relevant to the user's interests and interactions.
+
+Notification Preferences: Users have control over their notification settings, allowing them to choose how they receive updates about events, discussions, and other community activities.
 
 ### 5.6. Event Management Module
-(To be filled by respective team members)
+The Event Management Module empowers community organizers to create, manage, and promote events seamlessly. This module streamlines event coordination and enhances the overall event experience:
 
-### 5.7. Communicatin and Collaboration Module
-(To be filled by respective team members)
+**Event Creation:** Organizers can easily create and publish new events, providing details such as date, time, location, and event description.
+
+**RSVP and Registration:** Users can RSVP and register for events directly through the platform, facilitating accurate attendance tracking and communication.
+
+**Event Communication:** The module enables event-specific communication channels, allowing organizers to share updates, agendas, and important announcements with registered participants.
+
+### 5.7. Communication and Collaboration Module
+The Communication and Collaboration Module serves as the heart of the Cloud Ninja Community Management Application, enabling real-time interaction and knowledge sharing among community members:
+
+**Real-time Chat:** Users can engage in real-time text, audio, and video conversations, both one-on-one and in group settings, fostering instant communication and collaboration.
+
+**Discussion Threads:** The module supports threaded discussions on various topics, enabling users to engage in in-depth conversations and share insights.
+
+**Document Sharing:** Users can share documents, presentations, and files within the platform, facilitating seamless collaboration on projects and initiatives.
+
 
 ## 6. Project Roadmap
 
