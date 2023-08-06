@@ -213,20 +213,39 @@ Sensitive transaction data finds a secure home in [Amazon Aurora PostgreSQL Serv
 
 ## 7. Contributor Guidelines
 
+
+## 7. Contributor Guidelines
+
 ### 7.1. Code of Conduct
-(To be filled by respective team members)
+We follow the [Contributor Covenant Code of Conduct](https://www.contributor-covenant.org/version/2/0/code_of_conduct/).
 
 ### 7.2. Getting Started for Contributors
-(To be filled by respective team members)
+Thank you for considering contributing to our project! To get started, please follow these steps:
+1. Fork the repository.
+2. Clone the forked repository to your local machine.
+3. Install the required dependencies using `npm install`.
+4. Create a new branch for your feature/bugfix using `git checkout -b feature/your-feature-name`.
+5. Make your changes and commit them with descriptive messages.
+6. Push your changes to your forked repository.
+7. Create a pull request to our `master` branch.
 
 ### 7.3. Coding Standards
-(To be filled by respective team members)
+We adhere to the [PEP 8 Style Guide](https://www.python.org/dev/peps/pep-0008/) for our Python code. Please make sure to format your code accordingly before submitting a pull request.
 
 ### 7.4. Pull Request Process
-(To be filled by respective team members)
+1. Ensure that your code follows our coding standards.
+2. Test your changes thoroughly.
+3. Make a pull request to the `develop` branch.
+4. Provide a clear description of your changes and the problem they solve.
 
 ### 7.5. Issue Tracking and Bug Reporting
-(To be filled by respective team members)
+If you encounter a bug or have a feature request, please follow these steps:
+1. Search the [existing issues](https://github.com/cloudcampbd/cloudninja/issues) to see if it's already reported.
+2. If not, create a new issue with a descriptive title and detailed explanation.
+3. Provide steps to reproduce the issue if it's a bug.
+4. Use labels to categorize the issue (e.g., bug, enhancement, documentation).
+
+We appreciate your contributions and look forward to your involvement and innovation!
 
 ## 8. Collaborative Tools
 
