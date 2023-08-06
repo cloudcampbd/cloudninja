@@ -328,7 +328,7 @@ We appreciate your contributions and look forward to your involvement and innova
 
 We embrace developers from various backgrounds and geographic locations, encouraging them to join our repository and contribute at any time. This section will comprehensively showcase all contributors and acknowledge their efforts like [here](https://www.postgresql.org/community/contributors/) facilitated by automated tools like the one in this GitHub [repository](href="https://github.com/icecrime/vossibility-stack)
 
-### 9.1. List of Contributors
+**List of Contributors**
 
 ## 10. Leadership and Governance
 
