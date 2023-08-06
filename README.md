@@ -194,11 +194,11 @@ Sensitive transaction data finds a secure home in [Amazon Aurora PostgreSQL Serv
 ### 5.4. Admin Module
 The Admin Module plays a pivotal role in overseeing the overall functionality and management of the Cloud Ninja Community Management Application. It provides administrators with comprehensive tools to manage user roles, permissions, and system settings. Some key features and responsibilities of the Admin Module include:
 
-User Role Management: Admins can define and assign different user roles based on their responsibilities within the community. This helps ensure proper access control and data security.
+- **User Role Management:** Admins can define and assign different user roles based on their responsibilities within the community. This helps ensure proper access control and data security.
 
-Content Moderation: The Admin Module includes content moderation capabilities, allowing administrators to review and moderate user-generated content to maintain a positive and respectful community environment.
+- **Content Moderation:** The Admin Module includes content moderation capabilities, allowing administrators to review and moderate user-generated content to maintain a positive and respectful community environment.
 
-Analytics and Insights: Administrators can access detailed analytics and insights about user engagement, event participation, and overall community growth. This data assists in making informed decisions to enhance the platform's effectiveness.
+- **Analytics and Insights:** Administrators can access detailed analytics and insights about user engagement, event participation, and overall community growth. This data assists in making informed decisions to enhance the platform's effectiveness.
 
 ### 5.5. User Module
 The User Module focuses on providing a seamless and personalized experience for every user of the Cloud Ninja Community Management Application. This module enhances user engagement and satisfaction through various features:
