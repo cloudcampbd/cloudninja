@@ -43,7 +43,7 @@
   - [4.5. Backend Technologies](#45-backend-technologies)
   - [4.6. AI/ML and Generative AI](#46-aiml-and-generative-ai)
   - [4.7. Database Management](#47-database-management)
-  - [4.8. Data Management and analytics](#48-data-management-and-analytics)
+  - [4.8. Data Management and Analytics](#48-data-management-and-analytics)
   - [4.9. Payment Processing](#49-payment-processing)
 - [5. System Components](#5-system-components)
   - [5.1. Handling Authentication and Authorization](#51-handling-authentication-and-authorization)
