@@ -268,10 +268,6 @@ Our project roadmap outlines the key phases and activities for the successful de
 
 Throughout the project roadmap, we will collaborate closely with our development team and engage with the open-source community to ensure the Cloud Ninja Community Management Application evolves into a robust and feature-rich platform that meets the needs of diverse communities.
 
-
-## 7. Contributor Guidelines
-
-
 ## 7. Contributor Guidelines
 
 ### 7.1. Code of Conduct
