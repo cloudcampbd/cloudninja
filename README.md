@@ -197,11 +197,11 @@ The Admin Module plays a pivotal role in overseeing the overall functionality an
 ### 5.5. User Module
 The User Module focuses on providing a seamless and personalized experience for every user of the Cloud Ninja Community Management Application. This module enhances user engagement and satisfaction through various features:
 
-Personalized Profiles: Users can create and customize their profiles, adding information about their professional background, interests, and skills. This helps foster meaningful connections within the community.
+**Personalized Profiles:** Users can create and customize their profiles, adding information about their professional background, interests, and skills. This helps foster meaningful connections within the community.
 
-Activity Feeds: The User Module includes personalized activity feeds, displaying updates, events, and discussions relevant to the user's interests and interactions.
+**Activity Feeds:** The User Module includes personalized activity feeds, displaying updates, events, and discussions relevant to the user's interests and interactions.
 
-Notification Preferences: Users have control over their notification settings, allowing them to choose how they receive updates about events, discussions, and other community activities.
+**Notification Preferences:** Users have control over their notification settings, allowing them to choose how they receive updates about events, discussions, and other community activities.
 
 ### 5.6. Event Management Module
 The Event Management Module empowers community organizers to create, manage, and promote events seamlessly. This module streamlines event coordination and enhances the overall event experience:
