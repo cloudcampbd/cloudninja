@@ -308,7 +308,7 @@ We appreciate your contributions and look forward to your involvement and innova
 ## 8. Collaborative Tools
 
 - Documentation Portal GitHub Repository : https://github.com/cloudcampbd/cloudninja.git
-- Communication Channels :
+### Communication Channels:
 - [Cloud Ninja App WhatsApp Group](https://chat.whatsapp.com/LsPfEwXYNgi56jLH5imtv6)
 - [Join CloudCampBangladesh Slack Workspace:](https://join.slack.com/t/cloudcampbangladesh/shared_invite/zt-20m40emh2-NmtdqSLSFmXqxliU84S0Qg)
 - [Join #cloud-ninja-app Channel](https://cloudcampbangladesh.slack.com/archives/C05LGS7BJD9)
