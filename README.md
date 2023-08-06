@@ -64,10 +64,6 @@
   - [7.4. Pull Request Process](#74-pull-request-process)
   - [7.5. Issue Tracking and Bug Reporting](#75-issue-tracking-and-bug-reporting)
 - [8. Collaborative Tools](#8-collaborative-tools)
-  - [8.1. GitHub Repository](#81-github-repository)
-  - [8.2. Communication Channels](#82-communication-channels)
-  - [8.3. Documentation Portal](#83-documentation-portal)
-  - [8.4. Project Management Tools](#84-project-management-tools)
 - [9. Active Team Members](#9-active-team-members)
 - [10. Leadership and Governance](#10-leadership-and-governance)
     
