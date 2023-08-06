@@ -230,10 +230,14 @@ Sensitive transaction data finds a secure home in [Amazon Aurora PostgreSQL Serv
 
 ## 8. Collaborative Tools
 
-### 8.1. GitHub Repository
-### 8.2. Communication Channels
-### 8.3. Documentation Portal
-### 8.4. Project Management Tools
+- Documentation Portal GitHub Repository : https://github.com/cloudcampbd/cloudninja.git
+- Communication Channels :
+-       **Cloud Ninja App WhatsApp Group:** https://chat.whatsapp.com/LsPfEwXYNgi56jLH5imtv6
+-       **Join CloudCampBangladesh Slack: https://join.slack.com/t/cloudcampbangladesh/shared_invite/zt-20m40emh2-NmtdqSLSFmXqxliU84S0Qg
+-       Navigate to cloud-ninja-app Channel : https://cloudcampbangladesh.slack.com/archives/C05LGS7BJD9
+- Documentation Portal : https://github.com/cloudcampbd/cloudninja/blob/master/README.md
+- **Documents and asset store:** https://drive.google.com/drive/folders/1Dfcai3ZQuLsGLl8iGGO2svhLHFoUaNkL?usp=sharing
+- Project Management Tools: GitHub's Native Features and other tools if required.
 
 
 ## 9. Active Team Members
