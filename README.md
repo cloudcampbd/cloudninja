@@ -315,7 +315,7 @@ We appreciate your contributions and look forward to your involvement and innova
 
 ## 9. Active Team Members
 
-We embrace developers from various backgrounds and geographic locations, encouraging them to join our repository and contribute at any time. This section will comprehensively showcase all contributors and acknowledge their efforts like [here](https://www.postgresql.org/community/contributors/) facilitated by automated tools like the one in this GitHub [repository](https://github.com/icecrime/vossibility-stack)
+We embrace developers from various backgrounds and geographic locations, encouraging them to join our repository and contribute at any time. This section will comprehensively showcase all contributors and acknowledge their efforts like [here](https://www.postgresql.org/community/contributors/) facilitated by automated tools like the one in this GitHub [Repository.](https://github.com/icecrime/vossibility-stack)
 
 **List of Contributors**
 
