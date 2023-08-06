@@ -335,7 +335,7 @@ The formal structure of the project involves the following essential roles and r
 
 ### Leadership and Governance Roles and Responsibilities:
 
-        ### - Evangelist / Visionary Sponsor:
+        **Evangelist / Visionary Sponsor:**
         - Shapes and communicates project vision and direction.
         - Advocates for support and resources.
         - Provides high-level guidance and alignment.
