@@ -69,9 +69,7 @@
   - [8.3. Documentation Portal](#83-documentation-portal)
   - [8.4. Project Management Tools](#84-project-management-tools)
 - [9. Active Team Members](#9-active-team-members)
-  - [9.1. List of Contributors](#91-list-of-contributos)
 - [10. Leadership and Governance](#10-leadership-and-governance)
-  - [10.1. Roles and Responsibilities](#101-roles-and-responsibilities)
     
 
 
@@ -335,41 +333,39 @@ While the project operates as an open-source endeavor, specific guidelines are i
 
 The formal structure of the project involves the following essential roles and responsibilities:
 
-### 10.1. Roles and Responsibilities
+### Leadership and Governance Roles and Responsibilities:
 
-## Leadership and Governance
-
-### Evangelist / Visionary Sponsor:
+### - Evangelist / Visionary Sponsor:
 - Shapes and communicates project vision and direction.
 - Advocates for support and resources.
 - Provides high-level guidance and alignment.
 - Inspires and motivates the team with impact-driven goals.
 
-### Project Coordinator / Director:
+### - Project Coordinator / Director:
 - Orchestrates project management.
 - Develops project plan, timeline, milestones.
 - Manages resources, budget, and risks.
 - Facilitates communication among teams and stakeholders.
 
-### Technology Strategist:
+### - Technology Strategist:
 - Evaluates and oversees tech landscape.
 - Makes informed decisions about tools and frameworks.
 - Identifies tech optimization opportunities.
 - Provides technical guidance and mentorship.
 
-### Active Developer:
+### - Active Developer:
 - Contributes code and technical expertise.
 - Collaborates on feature implementation.
 - Influences design and decisions.
 - Takes ownership of tasks for completion.
 
-### Reviewer and Approver:
+### - Reviewer and Approver:
 - Safeguards quality through code and design review.
 - Ensures coding standards and practices.
 - Provides constructive feedback.
 - Approves contributions for integration.
 
-### Roles collaborate for project success:
+### - Roles collaborate for project success:
 - Vision and strategy establishment.
 - Technical execution and quality maintenance.
 - Effective communication and collaboration.
