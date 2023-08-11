@@ -274,7 +274,7 @@ Throughout the project roadmap, we will collaborate closely with our development
 ## 7. Contributor Guidelines
 
 ### 7.1. Code of Conduct
-We follow the [Contributor Covenant Code of Conduct](https://www.contributor-covenant.org/version/2/0/code_of_conduct/).
+We follow the [Amazon Open Source Code of Conduct](CODE_OF_CONDUCT.md)
 
 ### 7.2. Getting Started for Contributors
 Thank you for considering contributing to our project! To get started, please follow these steps:
