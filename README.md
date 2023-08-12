@@ -4,16 +4,24 @@
 
 ## Authors
 
-| SL  | Name                         | Email                       | Contact Number        |
-| --- | ---------------------------- | --------------------------- | --------------------- |
-| 1   | Mohammad Zaman               | mohammad.zaman@gmail.com    | +1-917-648-0034       |
-| 2   | Md. Mahamudur Rahman Sohag   | opensohag@gmail.com         | +880-1711-475-567     |
-| 3   | Sanjoy K Paul                | skpaul82@gmail.com          | +880-1511-927-992     |
-| 4   | Naim Hossen                  | naimhossenpro@gmail.com     | +880-1750-565-053     |
-| 5   | Fahimul Hoque Jason          | fahimulhoquejason@gmail.com | +880-1715-901-532     |
-| 6   | Md. Mahmud Hasan             | hasansaikatt@gmail.com      | +880-1732-072-178     |
-| 7   | Akil Mahmod Tipu             | akil.mahmod@cloudcampbd.com   | +880-1742-999-076     |
-|     |                              |                             |                       |
+## Authors
+
+| SL  | Name                         | Email                           | Contact Number        |
+| --- | ---------------------------- | --------------------------------| --------------------- |
+| 1   | Mohammad Zaman               | mohammad.zaman@cloudcampbd.com  | +1-917-648-0034       |
+| 2   | Md. Mahamudur Rahman Sohag   |mahamudur.rahman@cloudcampbd.com | +880-1711-475-567     |
+| 3   | Sanjoy K Paul                | skpaul82@gmail.com              | +880-1511-927-992     |
+| 4   | Naim Hossen                  | naimhossenpro@gmail.com         | +880-1750-565-053     |
+| 5   | Fahimul Hoque Jason          | fahimulhoquejason@gmail.com     | +880-1715-901-532     |
+| 6   | Md. Mahmud Hasan             | hasansaikatt@gmail.com          | +880-1643-095-283     |
+| 7   | Akil Mahmod Tipu             | akil.mahmod@cloudcampbd.com     | +880-1742-999-076     |
+| 8   | Md Shyfur Rahman             | shyfurahman@gmail.com           | +880-1970-749-387     |
+| 9   | Rais Uddin Md Rasel          | raisdhaka@gmail.com             | +880-1911-314-145     |
+| 10  | Shovon Dhar                  | shovon.spring@gmail.com         | +880-1921-700-393     |
+| 11  | S M Mahsanul Islam Nirjhor   | mahsanulnirjhor@gmail.com       | +880-1521-530-535     |
+| 12  | Mim Ahmed                    | mimbubt58@gmail.com             | +880-1963-068-116     |
+| 13  | Abdullah Al Reza             | reza.ict@gmail.com              | +880-1917-897-919     |
+|     |                              |                                 |                       |
 
 ### Document Outline
 
