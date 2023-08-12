@@ -12,7 +12,7 @@
 | 4   | Naim Hossen                  | naimhossenpro@gmail.com     | +880-1750-565-053     |
 | 5   | Fahimul Hoque Jason          | fahimulhoquejason@gmail.com | +880-1715-901-532     |
 | 6   | Md. Mahmud Hasan             | hasansaikatt@gmail.com      | +880-1732-072-178     |
-| 7   | Akil Mahmod Tipu             | akilmahmod.tipu@gmail.com   | +880-1742-999-076     |
+| 7   | Akil Mahmod Tipu             | akil.mahmod@cloudcampbd.com   | +880-1742-999-076     |
 |     |                              |                             |                       |
 
 ### Document Outline
