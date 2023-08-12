@@ -10,7 +10,7 @@
 | --- | ---------------------------- | --------------------------------| --------------------- |
 | 1   | Mohammad Zaman               | mohammad.zaman@cloudcampbd.com  | +1-917-648-0034       |
 | 2   | Md. Mahamudur Rahman Sohag   |mahamudur.rahman@cloudcampbd.com | +880-1711-475-567     |
-| 3   | Sanjoy K Paul                | skpaul82@gmail.com              | +880-1511-927-992     |
+| 3   | Sanjoy K Paul                | skpaul@DevsStation.com              | +880-1511-927-992     |
 | 4   | Naim Hossen                  | naimhossenpro@gmail.com         | +880-1750-565-053     |
 | 5   | Fahimul Hoque Jason          | fahimulhoquejason@gmail.com     | +880-1715-901-532     |
 | 6   | Md. Mahmud Hasan             | hasansaikatt@gmail.com          | +880-1643-095-283     |
