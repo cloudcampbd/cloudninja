@@ -292,7 +292,7 @@ Thank you for considering contributing to our project! To get started, please fo
 4. Create a new branch for your feature/bugfix using `git checkout -b feature/your-feature-name`.
 5. Make your changes and commit them with descriptive messages.
 6. Push your changes to your forked repository.
-7. Create a pull request to our `master` branch.
+7. Create a pull request to our `develop` branch.
 
 ### 7.3. Coding Standards
 We adhere to the [PEP 8 Style Guide](https://www.python.org/dev/peps/pep-0008/) for our Python code. Please make sure to format your code accordingly before submitting a pull request.
