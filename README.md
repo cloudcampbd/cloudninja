@@ -4,8 +4,6 @@
 
 ## Authors
 
-## Authors
-
 | SL  | Name                         | Email                           | Contact Number        |
 | --- | ---------------------------- | --------------------------------| --------------------- |
 | 1   | Mohammad Zaman               | mohammad.zaman@cloudcampbd.com  | +1-917-648-0034       |
