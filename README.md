@@ -24,7 +24,7 @@
 |     |                              |                                 |                       |
 
 ### Document Outline
-
+- [CloudNinja Application Overview](#cloudninja-application-overview)
 - [1. Introduction](#1-introduction)
 - [2. Application Overview](#2-application-overview)
   - [2.1. Background](#21-background)
@@ -78,7 +78,7 @@
 - [9. Active Team Members](#9-active-team-members)
 - [10. Leadership and Governance](#10-leadership-and-governance)
     
-
+# Cloud Ninja Application Overview
 
 ## 1. Introduction
 
@@ -86,7 +86,7 @@ Welcome to the [CloudCamp Bangladesh](https://www.cloudcampbd.org/) **Cloud Ninj
 
 In addition to the core AWS Serverless Services, this project will harness the full capabilities of Amazon SageMaker, an all-in-one Machine Learning Service, along with AWS Generative AI applications like Amazon CodeWhisperer and Amazon Bedrock. These cutting-edge tools will empower the platform with advanced AI-driven functionalities. Furthermore, the development will be orchestrated through the utilization of AWS Serverless Application Model (SAM), AWS Python SDK boto3, AWS Cloud Development Kit (AWS CDK), and a host of other AWS services, each carefully chosen to enhance Data Management, Query, and Visualizations.
 
-For crafting immersive and responsive user interfaces, the project will consider utilizing Vue.js or other suitable frontend technologies. The GraphQL API service will be seamlessly integrated using AWS AppSync, enhancing flexibility and adaptability. To ensure a superior user experience and optimal community management, React and React Native will be employed for the web application and mobile apps respectively. This choice not only guarantees a seamless and intuitive user interface but also optimizes availability, reliability, and data security.
+For crafting immersive and responsive user interfaces, the project will consider utilizing Vue.js or other suitable frontend technologies. The GraphQL API service will be seamlessly integrated using AWS AppSync, enhancing flexibility and adaptability. To ensure a superior user experience and optimal community management, React will be employed for the web application. For Android mobile app we will use native language Kotlin or Java. For iOS we will use Obejective-C or Swift. This choice not only guarantees a seamless and intuitive user interface but also optimizes availability, reliability, and data security.
 
 With this approach, the Cloud Ninja Community Management Platform Application will not only realize its vision of seamless community collaboration but will also uphold cost-efficiency, data security, and reliability as paramount values throughout its development journey.
 
