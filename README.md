@@ -24,7 +24,7 @@
 |     |                              |                                 |                       |
 
 ### Document Outline
-- [CloudNinja Application Overview](#cloudninja-application-overview)
+- [CloudNinja Application Overview](#cloud-ninja-application-overview)
 - [1. Introduction](#1-introduction)
 - [2. Application Overview](#2-application-overview)
   - [2.1. Background](#21-background)
