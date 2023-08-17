@@ -1,0 +1,7 @@
+.clickable:hover {
+  cursor: pointer;
+}
+
+.amplify-expander {
+  --amplify-components-expander-box-shadow: none;
+}

@@ -1,0 +1,100 @@
+- id: 1
+  name: Apparel
+  description: Clothing, outer garments and formal attire
+  image: 6bd74f2d-90c0-4ca6-9663-f3bbe9bf405b.jpg
+  has_gender_affinity: true
+- id: 2
+  name: Footwear
+  description: shoes, boots, sandles and flip-flops
+  image: 22552eb1-57f1-4fa3-a93a-a9fa22851f9f.jpg
+  has_gender_affinity: true
+- id: 3
+  name: Outdoors
+  description: Outside structures and related items
+  image: 7160b264-e3ed-4ac3-9dd7-2c537b00e5ed.jpg
+  has_gender_affinity: false
+- id:  4
+  name: Electronics
+  description: Electronic goods including personal electronics
+  image: 3b145528-d5fc-4c2a-b2a5-e119128caa5f.jpg
+  has_gender_affinity: false
+- id: 5
+  name: Beauty
+  description: Beauty treatements and personal care items
+  image: b87da3f8-9a3e-417d-abd7-16329c5be1ba.jpg
+  has_gender_affinity: true
+- id: 6
+  name: Jewelry
+  description: Formal and casual jewelry
+  image: 2ad09e8e-fd41-4d29-953e-546b924d7cb8.jpg
+  has_gender_affinity: true
+- id: 7
+  name: Accessories
+  description: Personal accessories including hand-bags, scarves, personal planners and diaries
+  image: 2b67230f-dc22-462e-9afe-c9e459f74093.jpg
+  has_gender_affinity: true
+- id: 8
+  name: Housewares
+  description: Homeware including kitchenware
+  image: 1e96e374-be23-4c97-b87e-b5c45cb8999f.jpg
+  has_gender_affinity: false
+- id: 9
+  name: Homedecor
+  description: Home decor including portable lighting and pictures
+  image: 01a8978b-2a84-4dbd-acc4-aff74a468681.jpg
+  has_gender_affinity: false
+- id: 10
+  name: Furniture
+  description: Indoor furniture including soft furnishing
+  image: 8b9733b9-cbea-4de3-978b-5e3f0e8c796c.jpg
+  has_gender_affinity: false
+- id: 11
+  name: Seasonal
+  description: Seasonal products
+  image: 6f04daee-7387-442f-bc99-a9b0072b29ce.jpg
+  has_gender_affinity: false
+- id: 12
+  name: Floral
+  description: Cut flowers, vases and indoor plants
+  image: 4bb66b8a-cf13-4959-87ce-ca506fa568a2.jpg
+  has_gender_affinity: false
+- id: 13
+  name: Books
+  description: Books, magazines and journals
+  image: 5d37a44b-d121-426e-b528-59e603ba5923.jpg
+  has_gender_affinity: false
+- id: 14
+  name: Groceries
+  description: Consumable items including food and drinks
+  image: a31ad4b3-f9a8-4a9b-a8b3-3034af7bacec.jpg
+  has_gender_affinity: false
+- id: 15
+  name: Instruments
+  description: Musical instruments and related items
+  image: 3f9a39b2-0d63-4751-b6ee-4ecd08dd2276.jpg
+  has_gender_affinity: false
+- id: 16
+  name: Tools
+  description: Indoor and outdoor tools
+  image: 8bffb5fb-624f-48a8-a99f-b8e9c64bbe29.jpg
+  has_gender_affinity: false
+- id: 17
+  name: Hot dispensed
+  description: Take-away hot drinks and snacks
+  image: 4f0c1b1d-87f8-4ee3-9db1-bddb4acc7908jpg
+  has_gender_affinity: false
+- id: 18
+  name: Cold dispensed
+  description: Prepackaged food and drink items
+  image: 90f60d9d-146d-4a22-95bb-60b66b97fe4ajpg
+  has_gender_affinity: false
+- id: 19
+  name: Food service
+  description: Delivered food and drinks
+  image: 00d41b99-9fa6-4f88-90f6-10f6fe1b4076jpg
+  has_gender_affinity: false
+- id: 20
+  name: Salty snacks
+  description: Snacks and sweets
+  image: 9c1a2048-7aac-4565-b836-d8d4f726322cjpg
+  has_gender_affinity: false
