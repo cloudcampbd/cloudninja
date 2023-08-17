@@ -107,7 +107,15 @@ We're excited to introduce a range of features that will shape the Cloud Ninja e
 This functionality encompasses user registration, profile modifications, and password management, providing a comprehensive approach to user authentication and authorization.
 
 #### 3.1.1. New User Sign-Up
-Users can register using email, password, or social credentials.
+Users can register using email, password, or social credentials. 
+User signup options are as follows:
+1. Email Addres & Password
+2. Social Network integration
+   Facebook
+   LinkedIn
+   Twitter
+   Instagram
+   
 
 #### 3.1.2. User Sign-In
 Secure sign-in options, including email and password, or alternate authentication methods.
@@ -144,6 +152,12 @@ Push notifications can be sent automatically or manually from the system to all 
 
 ### 3.10. Email
 The system has the capability to send emails to either all users or specific users. These emails can contain updates about news, links, meeting information, campaigns, and other relevant details. The notifications can be scheduled or sent manually.
+
+### 3.11. Subscription
+Each user will have option to subscribe to various modules. 
+1. Group subscription - will get notification updates
+2. Project subscription
+3. Premium subscription - need to get invitation codes
 
 
 ## 4. Architecture and Technology Stack
