@@ -4,8 +4,6 @@
 
 ## Authors
 
-## Authors
-
 | SL  | Name                         | Email                           | Contact Number        |
 | --- | ---------------------------- | --------------------------------| --------------------- |
 | 1   | Mohammad Zaman               | mohammad.zaman@cloudcampbd.com  | +1-917-648-0034       |
@@ -24,7 +22,7 @@
 | 14  | emam hosain                  | emgemamhosain@gmail.com         | +880-1750841137       |
 
 ### Document Outline
-
+- [CloudNinja Application Overview](#cloud-ninja-application-overview)
 - [1. Introduction](#1-introduction)
 - [2. Application Overview](#2-application-overview)
   - [2.1. Background](#21-background)
@@ -78,7 +76,7 @@
 - [9. Active Team Members](#9-active-team-members)
 - [10. Leadership and Governance](#10-leadership-and-governance)
     
-
+# Cloud Ninja Application Overview
 
 ## 1. Introduction
 
@@ -86,7 +84,7 @@ Welcome to the [CloudCamp Bangladesh](https://www.cloudcampbd.org/) **Cloud Ninj
 
 In addition to the core AWS Serverless Services, this project will harness the full capabilities of Amazon SageMaker, an all-in-one Machine Learning Service, along with AWS Generative AI applications like Amazon CodeWhisperer and Amazon Bedrock. These cutting-edge tools will empower the platform with advanced AI-driven functionalities. Furthermore, the development will be orchestrated through the utilization of AWS Serverless Application Model (SAM), AWS Python SDK boto3, AWS Cloud Development Kit (AWS CDK), and a host of other AWS services, each carefully chosen to enhance Data Management, Query, and Visualizations.
 
-For crafting immersive and responsive user interfaces, the project will consider utilizing Vue.js or other suitable frontend technologies. The GraphQL API service will be seamlessly integrated using AWS AppSync, enhancing flexibility and adaptability. To ensure a superior user experience and optimal community management, React and React Native will be employed for the web application and mobile apps respectively. This choice not only guarantees a seamless and intuitive user interface but also optimizes availability, reliability, and data security.
+For crafting immersive and responsive user interfaces, the project will consider utilizing Vue.js or other suitable frontend technologies. The GraphQL API service will be seamlessly integrated using AWS AppSync, enhancing flexibility and adaptability. To ensure a superior user experience and optimal community management, React will be employed for the web application. Project will use native language Kotlin or Java for Android Mobile App and Obejective-C or Swift for iOS App respectively . This choice not only guarantees a seamless and intuitive user interface but also optimizes availability, reliability, and data security.
 
 With this approach, the Cloud Ninja Community Management Platform Application will not only realize its vision of seamless community collaboration but will also uphold cost-efficiency, data security, and reliability as paramount values throughout its development journey.
 
@@ -99,7 +97,7 @@ The primary objective of the **Cloud Ninja** is to provide a comprehensive and u
 
 ### 2.3. Scope
 
-The scope of the project encompasses the development of a versatile web application and native mobile apps for iOS and Android platforms. These applications will seamlessly integrate a range of functions, including user authentication, event management, professional profiles, and communication tools similar to Slack. The project's open-source nature invites contributions from a global community of developers, ensuring continuous improvement and customization to meet diverse community needs. With a focus on scalability, security, and an intuitive user experience, the Cloud Ninja Community Management Platform is poised to become a cornerstone for communities seeking efficient collaboration and growth.
+The scope of the project encompasses the development of a versatile web application and native mobile apps for iOS and Android platforms. These applications will seamlessly integrate a range of functions, including user authentication, event management, professional profiles, and communication tools from the best features of Slack and Discord. The project's open-source nature invites contributions from a global community of developers, ensuring continuous improvement and customization to meet diverse community needs. With a focus on scalability, security, and an intuitive user experience, the Cloud Ninja Community Management Platform is poised to become a cornerstone for communities seeking efficient collaboration and growth.
 
 ## 3. Features and Functions
 
@@ -109,7 +107,15 @@ We're excited to introduce a range of features that will shape the Cloud Ninja e
 This functionality encompasses user registration, profile modifications, and password management, providing a comprehensive approach to user authentication and authorization.
 
 #### 3.1.1. New User Sign-Up
-Users can register using email, password, or social credentials.
+Users can register using email, password, or social credentials. 
+User signup options are as follows:
+1. Email Addres & Password
+2. Social Network integration
+   Facebook
+   LinkedIn
+   Twitter
+   Instagram
+   
 
 #### 3.1.2. User Sign-In
 Secure sign-in options, including email and password, or alternate authentication methods.
@@ -146,6 +152,12 @@ Push notifications can be sent automatically or manually from the system to all 
 
 ### 3.10. Email
 The system has the capability to send emails to either all users or specific users. These emails can contain updates about news, links, meeting information, campaigns, and other relevant details. The notifications can be scheduled or sent manually.
+
+### 3.11. Subscription
+Each user will have option to subscribe to various modules. 
+1. Group subscription - will get notification updates
+2. Project subscription
+3. Premium subscription - need to get invitation codes
 
 
 ## 4. Architecture and Technology Stack
@@ -292,7 +304,7 @@ Thank you for considering contributing to our project! To get started, please fo
 4. Create a new branch for your feature/bugfix using `git checkout -b feature/your-feature-name`.
 5. Make your changes and commit them with descriptive messages.
 6. Push your changes to your forked repository.
-7. Create a pull request to our `master` branch.
+7. Create a pull request to our `develop` branch.
 
 ### 7.3. Coding Standards
 We adhere to the [PEP 8 Style Guide](https://www.python.org/dev/peps/pep-0008/) for our Python code. Please make sure to format your code accordingly before submitting a pull request.
@@ -314,14 +326,15 @@ We appreciate your contributions and look forward to your involvement and innova
 
 ## 8. Collaborative Tools
 
-- Documentation Portal GitHub Repository : https://github.com/cloudcampbd/cloudninja.git
+- [GitHub Repository](https://github.com/cloudcampbd/cloudninja.git)
+  
 ### Communication Channels:
 - [Cloud Ninja App WhatsApp Group](https://chat.whatsapp.com/LsPfEwXYNgi56jLH5imtv6)
-- [Join CloudCampBangladesh Slack Workspace](https://join.slack.com/t/cloudcampbangladesh/shared_invite/zt-20m40emh2-NmtdqSLSFmXqxliU84S0Qg)
-- [Join #cloud-ninja-app Channel](https://cloudcampbangladesh.slack.com/archives/C05LGS7BJD9)
+- [CloudCampBangladesh Slack Workspace](https://join.slack.com/t/cloudcampbangladesh/shared_invite/zt-20m40emh2-NmtdqSLSFmXqxliU84S0Qg)
+- [#cloud-ninja-app Channel](https://cloudcampbangladesh.slack.com/archives/C05LGS7BJD9)
 - [Documentation Portal](https://github.com/cloudcampbd/cloudninja/blob/master/README.md)
 - [Documents and asset store](https://drive.google.com/drive/folders/1Dfcai3ZQuLsGLl8iGGO2svhLHFoUaNkL?usp=sharing)
-- Project Management Tools: GitHub's Native Features and other tools if required.
+- [Project Management Tool](https://github.com/orgs/cloudcampbd/projects/2)
 
 
 ## 9. Active Team Members
