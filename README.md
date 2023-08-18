@@ -110,8 +110,8 @@ This functionality encompasses user registration, profile modifications, and pas
 #### 3.1.1. New User Sign-Up
 Users can register using email, password, or social credentials. 
 User signup options are as follows:
-A. Email Addres & Password
-B. Social Network integration
+- A. Email Addres & Password
+- B. Social Network integration
    - Google
    - Facebook
    - LinkedIn
