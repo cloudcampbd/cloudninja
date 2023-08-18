@@ -110,8 +110,8 @@ This functionality encompasses user registration, profile modifications, and pas
 #### 3.1.1. New User Sign-Up
 Users can register using email, password, or social credentials. 
 User signup options are as follows:
-1. Email Addres & Password
-2. Social Network integration
+A. Email Addres & Password
+B. Social Network integration
    - Google
    - Facebook
    - LinkedIn
@@ -156,11 +156,21 @@ Push notifications can be sent automatically or manually from the system to all 
 The system has the capability to send emails to either all users or specific users. These emails can contain updates about news, links, meeting information, campaigns, and other relevant details. The notifications can be scheduled or sent manually.
 
 ### 3.11. Subscription
-Each user will have option to subscribe to various modules. 
-1. Group subscription - will get notification updates
-2. Project subscription
-3. Premium subscription - need to get invitation codes
 
+Within the application, users will enjoy the flexibility to subscribe to a range of modules, tailoring their experience to suit their preferences and needs.
+
+These subscription options encompass:
+
+**Group Subscription**
+Users can opt for group subscriptions, enabling them to receive timely notification updates related to their selected modules. This feature ensures that users stay informed about crucial developments within their chosen areas.
+
+**Project Subscription**
+Project-centric subscriptions allow users to receive updates and notifications specifically relevant to the projects they are involved in. By subscribing to specific projects, users can stay closely connected to project-related activities and updates.
+
+**Premium Subscription**
+The premium subscription offers an enhanced level of engagement. To access this subscription tier, users will need invitation codes. Once subscribed, users gain access to an elevated set of features, augmenting their overall experience within the application.
+
+These subscription choices empower users to curate their interaction with the application's content, updates, and offerings based on their individual preferences and priorities.
 
 ## 4. Architecture and Technology Stack
 Our architecture leverages the power of AWS services and cutting-edge technologies to ensure a scalable and efficient platform.
