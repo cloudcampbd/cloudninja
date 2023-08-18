@@ -19,7 +19,7 @@
 | 11  | S M Mahsanul Islam Nirjhor   | mahsanulnirjhor@gmail.com       | +880-1521-530-535     |
 | 12  | Mim Ahmed                    | mimbubt58@gmail.com             | +880-1963-068-116     |
 | 13  | Abdullah Al Reza             | reza.ict@gmail.com              | +880-1917-897-919     |
-|     |                              |                                 |                       |
+| 14  | emam hosain                  | engemamhosain@gmail.com         | +880-1750841137       |
 
 ### Document Outline
 - [CloudNinja Application Overview](#cloud-ninja-application-overview)
@@ -43,6 +43,7 @@
   - [3.8. AI Powered ChatBot](#38-ai-powered-chatbot)
   - [3.9. Push Notification](#39-push-notification)
   - [3.10. Email](#310-email)
+  - [3.11. Subscription](#311-subscription)
 
 - [4. Architecture and Technology Stack](#4-architecture-and-technology-stack)
   - [4.1. Systemwide Architecture Diagram](#41-systemwide-architecture-diagram)
@@ -111,10 +112,11 @@ Users can register using email, password, or social credentials.
 User signup options are as follows:
 1. Email Addres & Password
 2. Social Network integration
-   Facebook
-   LinkedIn
-   Twitter
-   Instagram
+   - Google
+   - Facebook
+   - LinkedIn
+   - Twitter
+   - Instagram
    
 
 #### 3.1.2. User Sign-In
