@@ -8,7 +8,7 @@
 | --- | ---------------------------- | --------------------------------| --------------------- |
 | 1   | Mohammad Zaman               | mohammad.zaman@cloudcampbd.com  | +1-917-648-0034       |
 | 2   | Md. Mahamudur Rahman Sohag   |mahamudur.rahman@cloudcampbd.com | +880-1711-475-567     |
-| 3   | Sanjoy K Paul                | skpaul@DevsStation.com              | +880-1511-927-992     |
+| 3   | Sanjoy K Paul                | skpaul@DevsStation.com          | +880-1511-927-992     |
 | 4   | Naim Hossen                  | naimhossenpro@gmail.com         | +880-1750-565-053     |
 | 5   | Fahimul Hoque Jason          | fahimulhoquejason@gmail.com     | +880-1715-901-532     |
 | 6   | Md. Mahmud Hasan             | hasansaikatt@gmail.com          | +880-1643-095-283     |
@@ -19,7 +19,7 @@
 | 11  | S M Mahsanul Islam Nirjhor   | mahsanulnirjhor@gmail.com       | +880-1521-530-535     |
 | 12  | Mim Ahmed                    | mimbubt58@gmail.com             | +880-1963-068-116     |
 | 13  | Abdullah Al Reza             | reza.ict@gmail.com              | +880-1917-897-919     |
-| 14  | emam hosain                  | engemamhosain@gmail.com         | +880-1750841137       |
+| 14  | Emam Hosain                  | engemamhosain@gmail.com         | +880-1750-841-137     |
 
 ### Document Outline
 - [CloudNinja Application Overview](#cloud-ninja-application-overview)
@@ -127,6 +127,15 @@ One-click password reset and multi-factor authentication options.
 
 #### 3.1.4. User Groups Management
 Efficient control over access rights through role-based user groups.
+
+**Creating and Removing User Groups:**
+User Groups Management feature allows Super Admins or Main Admins to create and remove user groups. User groups are logical containers that help organize users based on their roles, responsibilities, or permissions.
+
+**Adding Users to Groups:**
+In this feature, Super Admins or Main Admins have the authority to add users to specific user groups. When users belong to a group, they inherit the permissions associated with that group.
+
+**Assigning Permissions:**
+Another critical aspect of our User Groups Management feature is the ability to assign permissions to user groups. These permissions define what actions or resources the members of a group can access. This is a crucial mechanism for controlling who can do what within our application.
 
 ### 3.2. Event Management
 Effortlessly create and manage events, overseeing crucial aspects such as event budgets, vendor coordination, sponsorships, volunteer assignments, guest lists, and visitor registrations.
