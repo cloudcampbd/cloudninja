@@ -34,6 +34,7 @@
     - [3.1.2. User Sign-In](#312-user-sign-in)
     - [3.1.3. Password Recovery](#313-password-recovery)
     - [3.1.4. User Groups Management](#314-user-groups-management)
+    - [3.1.5. User Sign-Out](#315-user-sign-out)
   - [3.2. Event Management](#32-event-management)
   - [3.3. Professional Profile](#33-professional-profile)
   - [3.4. Communication and Collaboration](#34-communication-and-collaboration)
