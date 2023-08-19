@@ -136,6 +136,9 @@ Efficiently manage user access rights through the establishment of role-based us
 
 - **Assigning Permissions**: An integral facet of our User Groups Management feature is the capability to assign permissions to user groups. These permissions dictate the actions or resources accessible to group members, offering precise control over user capabilities within our application.
 
+#### 3.1.5. User Sign-Out
+Users can securely sign-out of their accounts when they've completed their session or need to log out for any reason. This ensures that their access to the application is terminated, enhancing account security.
+
 ### 3.2. Event Management
 Effortlessly create and manage events, overseeing crucial aspects such as event budgets, vendor coordination, sponsorships, volunteer assignments, guest lists, and visitor registrations.
 
