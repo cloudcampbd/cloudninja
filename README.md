@@ -106,25 +106,23 @@ The scope of the project encompasses the development of a versatile web applicat
 We're excited to introduce a range of features that will shape the Cloud Ninja experience:
 
 ### 3.1. Enhanced User Access Management
-This functionality encompasses user registration, profile modifications, and password management, providing a comprehensive approach to user authentication and authorization.
+This feature set offers an all-encompassing solution for managing user access, including registration, profile adjustments, password management, and secure sign-out options, ensuring robust user authentication and authorization processes.
 
 #### 3.1.1. New User Sign-Up
-Users can register using email, password, or social credentials. 
-User signup options are as follows:
-- A. Email Addres & Password
-- B. Social Network integration
-   - Google
-   - Facebook
-   - LinkedIn
-   - Twitter
-   - Instagram
-   
+
+Users can initiate their journey within the platform by signing up using various methods:
+
+A. **Email and Password**: Users can register with their email and a secure password.
+B. **Social Network Integration**: Registration can also be simplified by leveraging popular social media credentials, including options like Google, Facebook, LinkedIn, Twitter, and Instagram
 
 #### 3.1.2. User Sign-In
-Secure sign-in options, including email and password, or alternate authentication methods.
+The sign-in process is designed with security in mind, offering multiple authentication pathways. Users can securely access their accounts using:
+
+- Email and Password
+- Alternative authentication methods for added security.
 
 #### 3.1.3. Password Recovery
-One-click password reset and multi-factor authentication options.
+In the event of a forgotten password, users can effortlessly regain access to their accounts through a streamlined password recovery process. This includes one-click password reset and multi-factor authentication options for enhanced security.
 
 #### 3.1.4. User Groups Management
 Efficiently manage user access rights through the establishment of role-based user groups. This feature empowers Super Admins and Main Admins to organize users logically, simplifying access control and permissions.
@@ -137,7 +135,7 @@ Efficiently manage user access rights through the establishment of role-based us
 
 - **Assigning Permissions**: An integral facet of our User Groups Management feature is the capability to assign permissions to user groups. These permissions dictate the actions or resources accessible to group members, offering precise control over user capabilities within our application.
 
-#### 3.1.5. User Sign-Out
+#### 3.1.5. Sign-Out
 Users can securely sign-out of their accounts when they've completed their session or need to log out for any reason. This ensures that their access to the application is terminated, enhancing account security.
 
 ### 3.2. Event Management
