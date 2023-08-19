@@ -126,16 +126,15 @@ Secure sign-in options, including email and password, or alternate authenticatio
 One-click password reset and multi-factor authentication options.
 
 #### 3.1.4. User Groups Management
-Efficient control over access rights through role-based user groups.
+Efficiently manage user access rights through the establishment of role-based user groups. This feature empowers Super Admins and Main Admins to organize users logically, simplifying access control and permissions.
 
-**Creating and Removing User Groups:**
-User Groups Management feature allows Super Admins or Main Admins to create and remove user groups. User groups are logical containers that help organize users based on their roles, responsibilities, or permissions.
+### Key Functions:
 
-**Adding Users to Groups:**
-In this feature, Super Admins or Main Admins have the authority to add users to specific user groups. When users belong to a group, they inherit the permissions associated with that group.
+- **Creating and Removing User Groups**: Super Admins or Main Admins have the authority to create and remove user groups. User groups serve as logical containers, facilitating the organization of users based on their roles, responsibilities, or permissions.
 
-**Assigning Permissions:**
-Another critical aspect of our User Groups Management feature is the ability to assign permissions to user groups. These permissions define what actions or resources the members of a group can access. This is a crucial mechanism for controlling who can do what within our application.
+- **Adding Users to Groups**: Within this feature, Super Admins or Main Admins can seamlessly add users to specific user groups. Membership in a group automatically grants users the associated permissions, streamlining access control.
+
+- **Assigning Permissions**: An integral facet of our User Groups Management feature is the capability to assign permissions to user groups. These permissions dictate the actions or resources accessible to group members, offering precise control over user capabilities within our application.
 
 ### 3.2. Event Management
 Effortlessly create and manage events, overseeing crucial aspects such as event budgets, vendor coordination, sponsorships, volunteer assignments, guest lists, and visitor registrations.
