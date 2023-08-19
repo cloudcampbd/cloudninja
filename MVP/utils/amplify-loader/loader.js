@@ -9,6 +9,7 @@ const fs = require('fs');
 
 const CATEGORY_DATA = './data/categories.yaml';
 const PRODUCT_DATA = './data/products.yaml';
+const USER_DATA = './data/users.yaml';
 
 const APPSYNC_API_ENDPOINT_URL = awsmobile.aws_appsync_graphqlEndpoint;
 const APPSYNC_API_KEY = awsmobile.aws_appsync_apiKey;
@@ -23,30 +24,53 @@ const appsyncClient = () => {
   });
 };
 
-const categoryMutation = (cat) => {
+
+// const createUser = /* GraphQL */ `
+//   mutation CreateUser(
+//     $input: CreateUserInput!
+//     $condition: ModelUserConditionInput
+//   ) {
+//     createUser(input: $input, condition: $condition) {
+//       id
+//       name
+//       phone
+//       email
+//       address
+//       createdAt
+//       updatedAt
+//       __typename
+//     }
+//   }
+
+// `;
+
+
+const createUser = (user) => {
   return `
     mutation Mutation {
-      createCategory(input: {
-        id: "${cat.id}", 
-        image: "${cat.image}", 
-        name: "${cat.name}", 
-        description: "${cat.description}", 
-        styles: ${JSON.stringify(cat.styles || [])}
-      }) {
-        _deleted
-        _lastChangedAt
-        _version
-        createdAt
-        description
-        id
-        image
-        name
-        updatedAt
-        styles
-      }
+      createUser(input: { id: "${user.id}", name: "${user.name}",phone:"${user.phone}",,email:"${user.email}",address:"${user.address}"}) {id}
     }`;
 };
 
+
+const categoryMutation = (cat) => {
+  return `
+    mutation Mutation {
+      createCategory(input: {description: "te", id: "101", name: "sdfsf"}) {id}
+    }`;
+};
+
+ const createTodo =()=>{
+ 
+ return ` mutation Mutation {
+ createMy(input: {id: "9", description: "tt", name: "tt"}) {
+    id
+  }
+}
+`
+}
+;
+ 
 const productMutation = (prod) => {
   return `
     mutation Mutation {
@@ -83,8 +107,14 @@ const loadData = async () => {
 
   // Load the Categories
 
+
+  const userData = yaml.load(fs.readFileSync(USER_DATA, 'utf8'));
   const categoryData = yaml.load(fs.readFileSync(CATEGORY_DATA, 'utf8'));
 
+
+ 
+  
+  
   const categories = {};
   categoryData.forEach((cat) => {
     categories[cat.name] = {
@@ -122,13 +152,39 @@ const loadData = async () => {
 
   const appsync = appsyncClient();
 
-  // Load the categories
+  // Load the users
   let cnt = 0;
-  console.log('Beginning Category Import ----');
+
+    
+    
+ 
+    for (let key in userData) {
+      const { status,error } = await appsync.post('', {
+        query: createUser(userData[key]),
+      });
+      console.log(status,error)
+      console.log(createUser(userData[key]))
+      
+    }
+
+  
+  return
+    
+
+  
+  console.log('');
+  console.log(
+    `Category Import Completed ---- ${
+      cnt > 0 ? `${cnt} records failed` : 'no errors'
+    }`
+  );
+
   for (let key in categories) {
+    console.log(categoryMutation(categories[key]))
     const { status } = await appsync.post('', {
       query: categoryMutation(categories[key]),
     });
+    console.log(status)
     if (status !== 200) {
       process.stdout.write('x');
       cnt += 1;
@@ -140,6 +196,8 @@ const loadData = async () => {
       cnt > 0 ? `${cnt} records failed` : 'no errors'
     }`
   );
+  
+  return
 
   // Load the products
   cnt = 0;
