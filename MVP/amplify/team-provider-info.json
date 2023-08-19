@@ -1,0 +1,20 @@
+{
+  "develop": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-cloudninja-develop-92213-authRole",
+      "UnauthRoleArn": "arn:aws:iam::046029397741:role/amplify-cloudninja-develop-92213-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::046029397741:role/amplify-cloudninja-develop-92213-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-cloudninja-develop-92213-deployment",
+      "UnauthRoleName": "amplify-cloudninja-develop-92213-unauthRole",
+      "StackName": "amplify-cloudninja-develop-92213",
+      "StackId": "arn:aws:cloudformation:us-east-1:046029397741:stack/amplify-cloudninja-develop-92213/e2199ce0-3e71-11ee-a4ef-0ab4ccc21687",
+      "AmplifyAppId": "d20s6sjko3xchb"
+    },
+    "categories": {
+      "auth": {
+        "cloudninja": {}
+      }
+    }
+  }
+}

@@ -22,7 +22,7 @@
     "typescript": "^5.0.4"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "PORT=8000  react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

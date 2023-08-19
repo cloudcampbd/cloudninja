@@ -15,7 +15,7 @@ export default function Header(props) {
     <div id="top-nav">
       <TopNavigation
           identity={{
-            title: "RetailStore",
+            title: "CloudNinja",
             href: "/",
             onFollow: function(e) {
               e.preventDefault();
@@ -23,7 +23,7 @@ export default function Header(props) {
             },
             logo: { 
               src: "https://d1.awsstatic.com/products/AWS-mobile/Mobile-v2/amplify-logo-circle.3c79537237d8ac81726fc61fe5e0c03f288e64ae.png",
-              alt: 'Amplify RetailStore'
+              alt: 'Amplify CloudNinja'
             }
           }}
           utilities={[

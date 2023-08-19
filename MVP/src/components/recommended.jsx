@@ -40,14 +40,14 @@ export default function Recommended() {
         }
       }
     }
-    queryProduct();
+   // queryProduct();
   }, [products]);
 
   useEffect(() => {
     if (showAlert) {
         const timeId = setTimeout(() => {
             setShowAlert(false);
-        }, 5000);
+        }, 50000);
 
         return () => {
             clearTimeout(timeId);
