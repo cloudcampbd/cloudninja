@@ -139,7 +139,10 @@ Our approach aims to realize seamless community collaboration while prioritizing
 #### AI Frameworks and Tools
 - [Amazon OpenSearch](https://aws.amazon.com/opensearch-service/) for real-time search and analytics.
 - [Amazon CodeWhisperer](https://aws.amazon.com/code-whisperer/) for automated code review and suggestions.
-- [Amazon Bedrock](https://aws.amazon.com/bedrock/) foundation models (FMs) API service will be utilized during the project lifecycle.
+- [Amazon Bedrock](https://aws.amazon.com/bedrock/) foundation models (FMs) API service will be utilized for Generative AI and Artificial General Intelligence (AGI) during the project lifecycle.
+
+### Generative AI Workflow and Tools
+
   - Pre-training: Depending on our use case, we will choose from foundation models (FMs) that are pre-trained with vast corpora of data. If required, we will pre-train selected FMs with domain training data.
   - Prompt tuning and fine-tuning: Tuning them further for specific tasks and adding domain-specific data.
   - Reinforcement Learning / Human Feedback: Training with separate reward models (e.g., helpful, honest, harmless) and updating LLM model or adapter weights.
@@ -195,8 +198,10 @@ Our approach aims to realize seamless community collaboration while prioritizing
 - [AWS Secrets Manager](https://aws.amazon.com/secrets-manager/) for managing sensitive information.
 
 ### Security
+- [AWS Identity](https://aws.amazon.com/identity/)
+- [AWS IAM (Identity and access management)](https://aws.amazon.com/iam/)
 - [AWS Certificate Manager](https://aws.amazon.com/certificate-manager/) for SSL/TLS certificates.
-- [AWS WAF (Web Application Firewall)](https://aws.amazon.com/waf/) for security.
+- [AWS WAF (Web Application Firewall)](https://aws.amazon.com/waf/) for application security.
 
 ### Communication Platform
 - [Amazon Chime SDK](https://aws.amazon.com/chime/chime-sdk/) for building communication and collaboration features.
