@@ -207,7 +207,7 @@ Our approach aims to realize seamless community collaboration while prioritizing
 - [Amazon Chime SDK](https://aws.amazon.com/chime/chime-sdk/) for building communication and collaboration features.
 
 ### Customer Service
-- [Amazon Connect](https://aws.amazon.com/connect/) Provide superior customer service at a lower cost with an easy-to-use cloud contact center
+- [Amazon Connect](https://aws.amazon.com/connect/) provide superior customer service at a lower cost with an easy-to-use cloud contact center.
 
 ### 1.2. Benefits:
 - Ensures immersive and responsive user interfaces.
