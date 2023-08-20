@@ -24,6 +24,7 @@
 ### Document Outline
 - [CloudNinja Application Overview](#cloud-ninja-application-overview)
 - [1. Introduction](#1-introduction)
+  - [1.1. Technology Stack](#11-technology-stack)
 - [2. Application Overview](#2-application-overview)
   - [2.1. Background](#21-background)
   - [2.2. Objective](#22-objective)
@@ -34,7 +35,7 @@
     - [3.1.2. User Sign-In](#312-user-sign-in)
     - [3.1.3. Password Recovery](#313-password-recovery)
     - [3.1.4. User Groups Management](#314-user-groups-management)
-    - [3.1.5. User Sign-Out](#315-user-sign-out)
+    - [3.1.5. Sign-Out](#315-sign-out)
   - [3.2. Event Management](#32-event-management)
   - [3.3. Professional Profile](#33-professional-profile)
   - [3.4. Communication and Collaboration](#34-communication-and-collaboration)
@@ -82,15 +83,254 @@
 
 ## 1. Introduction
 
-Welcome to the [CloudCamp Bangladesh](https://www.cloudcampbd.org/) **Cloud Ninja** Community Management Application Project! This comprehensive document outlines the essential steps required to develop a robust web application and mobile apps for both iOS and Android platforms. The central architecture of this platform will be built upon the powerful suite of AWS Serverless Services, ensuring a scalable and efficient infrastructure.
+Welcome to the [CloudCamp Bangladesh](https://www.cloudcampbd.org/) **Cloud Ninja** Community Management Application Project! This document outlines the steps to develop a robust web application and mobile apps for both iOS and Android. Our project leverages AWS Serverless Services, Amazon SageMaker, and AWS Generative AI tools like CodeWhisperer and Bedrock for advanced AI-driven features. We utilize AWS SAM, Python SDK boto3, AWS CDK, and other AWS services for data management, queries, and visualizations.
 
-In addition to the core AWS Serverless Services, this project will harness the full capabilities of Amazon SageMaker, an all-in-one Machine Learning Service, along with AWS Generative AI applications like Amazon CodeWhisperer and Amazon Bedrock. These cutting-edge tools will empower the platform with advanced AI-driven functionalities. Furthermore, the development will be orchestrated through the utilization of AWS Serverless Application Model (SAM), AWS Python SDK boto3, AWS Cloud Development Kit (AWS CDK), and a host of other AWS services, each carefully chosen to enhance Data Management, Query, and Visualizations.
+To create immersive user interfaces, we consider Vue.js, React, and seamless GraphQL API integration via AWS AppSync. For mobile apps, we use Kotlin/Java for Android and Objective-C/Swift for iOS, ensuring a seamless and secure user experience.
 
-For crafting immersive and responsive user interfaces, the project will consider utilizing Vue.js or other suitable frontend technologies. The GraphQL API service will be seamlessly integrated using AWS AppSync, enhancing flexibility and adaptability. To ensure a superior user experience and optimal community management, React will be employed for the web application. Project will use native language Kotlin or Java for Android Mobile App and Obejective-C or Swift for iOS App respectively . This choice not only guarantees a seamless and intuitive user interface but also optimizes availability, reliability, and data security.
+Our approach aims to realize seamless community collaboration while prioritizing cost-efficiency, data security, and reliability, following the principles of the [AWS Well-Architected Framework](https://aws.amazon.com/architecture/well-architected/)
 
-With this approach, the Cloud Ninja Community Management Platform Application will not only realize its vision of seamless community collaboration but will also uphold cost-efficiency, data security, and reliability as paramount values throughout its development journey.
+### 1.1. Technology Stack
+
+## 1.1.1. Frontend
+- [Vue.js](https://vuejs.org/) or other suitable frontend technologies like [React](https://react.dev/).
+- [AWS Amplify](https://aws.amazon.com/amplify/) for frontend development and hosting.
+
+## 1.1.2. Backend Services
+
+### Authentication and Authorization
+- [Amazon Cognito](https://aws.amazon.com/cognito/) for user authentication and authorization.
+
+### Container Orchestration and Management
+- [Amazon EKS](https://aws.amazon.com/eks/) for container orchestration and management.
+
+### Serverless Computing
+- [AWS Lambda](https://aws.amazon.com/lambda/) for Event-Driven Functions.
+- [AWS Fargate](https://aws.amazon.com/fargate/) containerized compute for long-running services or functions that need more control over resource allocation and can run within Docker containers. This might include web applications, microservices, or background services that run continuously.
+- [Amazon API Gateway](https://aws.amazon.com/api-gateway/) for building and managing APIs.
+- [AWS AppSync](https://aws.amazon.com/appsync/) for GraphQL API.
+
+### Object Storage
+- [Amazon S3 (Simple Storage Service)](https://aws.amazon.com/s3/) for object storage.
+
+### Databases
+- [Amazon DynamoDB](https://aws.amazon.com/dynamodb/) for NoSQL database.
+- [AWS Aurora PostgreSQL Serverless](https://aws.amazon.com/rds/aurora/serverless/) for SQL database.
+
+### Data Warehousing
+- [Amazon Redshift](https://aws.amazon.com/redshift/) for data warehousing and analytics.
+
+#### Data Archiving
+- [Amazon Glacier](https://aws.amazon.com/glacier/) for long-term data archival.
+  
+### Data Processing
+- [AWS Glue](https://aws.amazon.com/glue/) for ETL (Extract, Transform, Load) and data integration.
+
+### Media Services
+
+#### Video Processing and Delivery
+- [AWS Elemental Media Services](https://aws.amazon.com/media-services/) for video processing and delivery.
+- [Amazon Kinesis Video Streams](https://aws.amazon.com/kinesis/video-streams/) for capturing, processing, and storing media streams for playback, analytics, and machine learning.
+
+### AI and Machine Learning
+
+#### AI Model Development and Deployment
+- [Amazon SageMaker](https://aws.amazon.com/sagemaker/) for end-to-end machine learning model development, training, evaluation, fine-tuning, and deployment.
+-  and [Amazon Bedrock](https://aws.amazon.com/bedrock/) for advanced AI-driven features.
+
+#### AI Frameworks and Tools
+- [Amazon OpenSearch (formerly Elasticsearch)](https://aws.amazon.com/opensearch/) for full-text search and analytics.
+- [Amazon CodeWhisperer](https://aws.amazon.com/code-whisperer/) for automated code review and suggestions.
+- [Amazon Bedrock](https://aws.amazon.com/bedrock/) foundation models (FMs) API service will be utilized during the project lifecycle
+
+  - Pre-training: Depending on our use case we will choose from a foundation models (FMs) which is pre-trained with vast corpora of data. If required we will pre-train selected FM with domain training data.
+  - Prompt tuning and fine-tuning: Tuning it further for specific tasks. Add domain specific data.
+  - Reinforcement Learning / Human Feedback: We will train with separate reward models e.g. helpful, honest, harmless and update LLM model or adapter weights.
+  - Compression / Optimization / Deployment: We will reduce model size through model pruning, weight quantization, distillation for smaller model size and faster inference.
+  - Interacting with external data sources and applications: Integrations that need to allow the app to process a return requests from end to end e.g. from a live database or a event management function.
+  - Chain-of-thought reasoning: Train model with chain-of-thought reasoning similar to human do for complex tasks.
+  - Program-aided language models (PAL) framework: To help LLM do the mathmatics and programming tasks with the help of interpreter e.g. Python interpreter.
+  - ReAct: Synergizing Reasoning and Acting in Language Models: This framework is for Reasoning and Action.
+  - Agents and Hubs: SageMaker Jumpstart and HuggingFace ModelHubs can be used for multimodal response generation.
+  - Langchain Framework: This framework can be used to perform PAL, ReAct and Chain of Thought reasoning.
+
+### Development Tools
+- [AWS Serverless Application Model (AWS SAM)](https://aws.amazon.com/serverless/sam/) for serverless application development.
+- [AWS Python SDK (boto3)](https://aws.amazon.com/sdk-for-python/) for AWS integration.
+- [AWS Cloud9](https://aws.amazon.com/cloud9/) for integrated development environment (IDE).
+- [AWS CDK (Cloud Development Kit)](https://aws.amazon.com/cdk/) for infrastructure as code.
+
+### Workflow Automation
+- [Amazon Step Functions](https://aws.amazon.com/step-functions/) for orchestrating serverless workflows.
+- [Amazon EventBridge](https://aws.amazon.com/eventbridge/) for event-driven architecture.
+
+### Messaging
+- [Amazon SQS (Simple Queue Service)](https://aws.amazon.com/sqs/) for message queuing.
+
+### Email and Notifications
+- [Amazon SES (Simple Email Service)](https://aws.amazon.com/ses/) for sending emails.
+- [Amazon SNS (Simple Notification Service)](https://aws.amazon.com/sns/) for event-driven notifications.
+
+### Content Delivery
+- [Amazon CloudFront](https://aws.amazon.com/cloudfront/) for content delivery and caching.
+
+### Database Query and Analysis
+- [Amazon Athena](https://aws.amazon.com/athena/) for querying data stored in Amazon S3.
+- Amazon OpenSearch for full-text search and analytics.
+
+### Machine Learning and AI
+- [Amazon SageMaker](https://aws.amazon.com/sagemaker/) for machine learning model development, training, evaluation, fine tuning and deployment.
+
+### Infrastructure Management
+- [AWS CloudFormation](https://aws.amazon.com/cloudformation/) for infrastructure as code (IAC) utilized by both AWS SAM and AWS CDK framework.
+
+### Continuous Integration and Continuous Deployment (CI/CD)
+- [AWS CodePipeline](https://aws.amazon.com/codepipeline/) for building and deploying code.
+- [AWS CodeBuild](https://aws.amazon.com/codebuild/) for building and testing code.
+
+### Code Reuse
+- [AWS Lambda Layers](https://docs.aws.amazon.com/lambda/latest/dg/chapter-layers.html) for code reuse.
+
+### Tracing and Debugging
+- [AWS X-Ray](https://aws.amazon.com/xray/) for application tracing and debugging.
+
+### Monitoring and Logging
+- [Amazon CloudWatch](https://aws.amazon.com/cloudwatch/) for monitoring and logging.
+- [AWS CloudTrail](https://aws.amazon.com/cloudtrail/) for audit and monitoring of AWS resources.
+
+### Secrets Management
+- [AWS Secrets Manager](https://aws.amazon.com/secrets-manager/) for managing sensitive information.
+
+### Security
+- [AWS Certificate Manager](https://aws.amazon.com/certificate-manager/) for SSL/TLS certificates.
+- [AWS WAF (Web Application Firewall)](https://aws.amazon.com/waf/) for security.
+
+### Communication Platform
+- [Amazon Chime SDK](https://aws.amazon.com/chime/chime-sdk/) for building communication and collaboration features.
+
+### Customer Service
+- [Amazon Connect](https://aws.amazon.com/connect/) Provide superior customer service at a lower cost with an easy-to-use cloud contact center
+
+### 1.2. Benefits:
+- Ensures immersive and responsive user interfaces.
+- Empowers the platform with advanced AI-driven functionalities.
+- Enhances flexibility and adaptability through seamless GraphQL API integration using AWS AppSync.
+- Guarantees a seamless and intuitive user interface for mobile users.
+
+### 1.3. Values:
+
+#### 1.3.1. Operational Excellence
+- **Design Principles:**
+  1. Perform operations as code
+  2. Make frequent, small, reversible changes
+  3. Refine operations procedures frequently
+  4. Anticipate failure
+  5. Learn from all operational failures
+- **Best Practices:**
+  - Understand business and customer needs.
+  - Create and use procedures to respond to operational events.
+  - Collect metrics to measure the achievement of desired business outcomes.
+  - Design operations to support evolution over time.
+  - Incorporate lessons learned through performance.
+
+#### 1.3.2. Security
+- **Design Principles:**
+  1. Implement a strong identity foundation
+  2. Enable traceability
+  3. Apply security at all layers
+  4. Automate security best practices
+  5. Protect data in transit and at rest
+  6. Keep people away from data
+  7. Prepare for security events
+- **Best Practices:**
+  - Control who can do what.
+  - Identify security incidents.
+  - Protect systems and services.
+  - Maintain the confidentiality and integrity of data.
+  - Have a process for responding to security incidents.
+  - Leverage the AWS Shared Responsibility Model.
+
+#### 1.3.3. Reliability
+- **Design Principles:**
+  1. Automatically recover from failure
+  2. Test recovery procedures
+  3. Scale horizontally to increase aggregate workload availability
+  4. Stop guessing capacity
+  5. Manage change in automation
+- **Best Practices:**
+  - Ensure foundational requirements are in place.
+  - Design with reliability in mind, including loosely coupled dependencies and graceful degradation.
+  - Anticipate and accommodate changes in workload or environment.
+  - Implement resiliency with fault isolation, automated failover, and disaster recovery strategies.
+
+#### 1.3.4. Performance Efficiency
+- **Design Principles:**
+  1. Democratize advanced technologies
+  2. Go global in minutes
+  3. Use serverless architectures
+  4. Experiment more often
+  5. Consider mechanical sympathy
+- **Best Practices:**
+  - Take a data-driven approach to high-performance architecture.
+  - Review and monitor architecture choices.
+  - Make trade-offs in architecture to improve performance.
+  - Use multiple solutions and features to improve performance.
+
+#### 1.3.5. Cost Optimization
+- **Design Principles:**
+  1. Implement cloud financial management
+  2. Adopt a consumption model
+  3. Measure overall efficiency
+  4. Stop spending money on undifferentiated heavy lifting
+  5. Analyze and attribute expenditure
+- **Best Practices:**
+  - Consider trade-offs between speed to market and cost optimization.
+  - Design with optimization in mind.
+  - Use appropriate services, resources, and configurations.
+  - Regularly review and monitor to take advantage of evolving AWS services.
+
+#### 1.3.6. Sustainability
+- **Design Principles:**
+  1. Understand your impact
+  2. Establish sustainability goals
+  3. Maximize utilization
+  4. Anticipate and adopt new, more efficient hardware and software offerings
+  5. Use managed services
+  6. Reduce the downstream impact of your cloud workloads
+- **Best Practices:**
+  - Choose AWS Regions based on sustainability goals.
+  - Use user behavior patterns for sustainability improvements.
+  - Implement software and architecture patterns for load smoothing and resource efficiency.
+  - Analyze data and hardware patterns for sustainability improvements.
+  - Identify opportunities to reduce sustainability impact in development and deployment.
+ 
+#### 1.3.7. Machine Learning and AI
+
+Our AI and ML journey is guided by the AWS Cloud Adoption Framework for Artificial Intelligence, Machine Learning, and Generative AI (CAF-AI). CAF-AI is our dynamic resource, helping us shape our strategy, assess maturity, and drive AI success.
+
+This framework enables us to explore key AI considerations, foster discussions within our team and with partners, and adapt to various stages of our AI journey. It's more than just a guide; it aligns with our ambitions for successful enterprise-level AI implementation.
+
+Our goal is to provide the same prescriptive guidance as AWS CAF but tailored for AI and ML, leveraging CAF's proven organizational capabilities while addressing the unique demands of AI. AWS CAF has accelerated cloud transformations globally, and CAF-AI extends this impact into the realm of AI.
+
+#### 1.3.8. AWS Serverless Application Lens
+
+The AWS Serverless Application Lens is a valuable addition to our project. This lens provides guidance and best practices specifically tailored to serverless architectures. It offers insights into optimizing serverless applications for improved performance, cost efficiency, and reliability.
+
+This lens encompasses key considerations such as:
+
+- Designing serverless applications for event-driven, scalable, and cost-effective execution.
+- Leveraging AWS Lambda, Amazon API Gateway, and other serverless services effectively.
+- Implementing security measures to protect serverless applications and their data.
+- Monitoring, troubleshooting, and optimizing serverless workloads.
+
+By integrating the AWS Serverless Application Lens into our architecture, we ensure that our serverless components align with AWS best practices for building robust and efficient serverless applications.
+
+For detailed information on this lens, you can refer to the [AWS Serverless Application Lens documentation](https://docs.aws.amazon.com/wellarchitected/latest/serverless-applications-lens/welcome.html?).
+
+We will incorporate the insights and recommendations from this lens to enhance the serverless aspects of our Cloud Ninja Community Management Application Project.
+
 
 ## 2. Application Overview
+
 ### 2.1. Background
 In an increasingly interconnected world, the need for efficient and effective community management has never been greater. Communities, whether professional, social, or interest-based, thrive on seamless communication, collaborative efforts, and shared resources. The Cloud Ninja Community Management Application Platform emerges as a response to this need, aiming to revolutionize the way communities interact, organize events, and manage their activities.
 
