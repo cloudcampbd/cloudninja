@@ -141,7 +141,7 @@ Our approach aims to realize seamless community collaboration while prioritizing
 - [Amazon SageMaker](https://aws.amazon.com/sagemaker/) for end-to-end machine learning model development, training, evaluation, fine-tuning, and deployment.
 
 #### AI Frameworks and Tools
-- [Amazon OpenSearch (formerly Elasticsearch)](https://aws.amazon.com/opensearch/) for full-text search and analytics.
+- [Amazon OpenSearch](https://aws.amazon.com/opensearch-service/) for real-time search and analytics.
 - [Amazon CodeWhisperer](https://aws.amazon.com/code-whisperer/) for automated code review and suggestions.
 - [Amazon Bedrock](https://aws.amazon.com/bedrock/) foundation models (FMs) API service will be utilized during the project lifecycle.
   - Pre-training: Depending on our use case, we will choose from foundation models (FMs) that are pre-trained with vast corpora of data. If required, we will pre-train selected FMs with domain training data.
@@ -177,7 +177,6 @@ Our approach aims to realize seamless community collaboration while prioritizing
 
 ### Database Query and Analysis
 - [Amazon Athena](https://aws.amazon.com/athena/) for querying data stored in Amazon S3.
-- [Amazon OpenSearch](https://aws.amazon.com/opensearch-service/) for real-time search and analytics.
 
 ### Machine Learning and AI
 - [Amazon SageMaker](https://aws.amazon.com/sagemaker/) for machine learning model development, training, evaluation, fine-tuning, and deployment.
