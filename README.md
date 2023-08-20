@@ -174,9 +174,6 @@ Our approach aims to realize seamless community collaboration while prioritizing
 ### Database Query and Analysis
 - [Amazon Athena](https://aws.amazon.com/athena/) for querying data stored in Amazon S3.
 
-### Machine Learning and AI
-- [Amazon SageMaker](https://aws.amazon.com/sagemaker/) for machine learning model development, training, evaluation, fine-tuning, and deployment.
-
 ### Infrastructure Management
 - [AWS CloudFormation](https://aws.amazon.com/cloudformation/) for infrastructure as code (IAC) utilized by both AWS SAM and AWS CDK framework.
 
