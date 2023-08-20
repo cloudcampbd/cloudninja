@@ -135,7 +135,6 @@ Our approach aims to realize seamless community collaboration while prioritizing
 
 #### AI Model Development and Deployment
 - [Amazon SageMaker](https://aws.amazon.com/sagemaker/) for end-to-end machine learning model development, training, evaluation, fine-tuning, and deployment.
--  and [Amazon Bedrock](https://aws.amazon.com/bedrock/) for advanced AI-driven features.
 
 #### AI Frameworks and Tools
 - [Amazon OpenSearch (formerly Elasticsearch)](https://aws.amazon.com/opensearch/) for full-text search and analytics.
