@@ -120,12 +120,16 @@ Our approach aims to realize seamless community collaboration while prioritizing
 - [Amazon Redshift](https://aws.amazon.com/redshift/) for data warehousing and analytics.
 
 ### Data Archiving
-- [Amazon Glacier](https://aws.amazon.com/glacier/) for long-term data archival and retreival.
+- [Amazon Glacier](https://aws.amazon.com/glacier/) for long-term data archival and retrieval.
   
 ### Data Processing
 - [AWS Glue](https://aws.amazon.com/glue/) for ETL (Extract, Transform, Load) and data integration.
 
 ### Media Services
+
+#### Video Processing and Delivery
+- [AWS Elemental Media Services](https://aws.amazon.com/media-services/) for video processing and delivery.
+- [Amazon Kinesis Video Streams](https://aws.amazon.com/kinesis/video-streams/) for capturing, processing, and storing media streams for playback, analytics, and machine learning.
 
 #### Video Processing and Delivery
 - [AWS Elemental Media Services](https://aws.amazon.com/media-services/) for video processing and delivery.
@@ -139,18 +143,17 @@ Our approach aims to realize seamless community collaboration while prioritizing
 #### AI Frameworks and Tools
 - [Amazon OpenSearch (formerly Elasticsearch)](https://aws.amazon.com/opensearch/) for full-text search and analytics.
 - [Amazon CodeWhisperer](https://aws.amazon.com/code-whisperer/) for automated code review and suggestions.
-- [Amazon Bedrock](https://aws.amazon.com/bedrock/) foundation models (FMs) API service will be utilized during the project lifecycle
-
-  - Pre-training: Depending on our use case we will choose from a foundation models (FMs) which is pre-trained with vast corpora of data. If required we will pre-train selected FM with domain training data.
-  - Prompt tuning and fine-tuning: Tuning it further for specific tasks. Add domain specific data.
-  - Reinforcement Learning / Human Feedback: We will train with separate reward models e.g. helpful, honest, harmless and update LLM model or adapter weights.
-  - Compression / Optimization / Deployment: We will reduce model size through model pruning, weight quantization, distillation for smaller model size and faster inference.
-  - Interacting with external data sources and applications: Integrations that need to allow the app to process a return requests from end to end e.g. from a live database or a event management function.
-  - Chain-of-thought reasoning: Train model with chain-of-thought reasoning similar to human do for complex tasks.
-  - Program-aided language models (PAL) framework: To help LLM do the mathmatics and programming tasks with the help of interpreter e.g. Python interpreter.
+- [Amazon Bedrock](https://aws.amazon.com/bedrock/) foundation models (FMs) API service will be utilized during the project lifecycle.
+  - Pre-training: Depending on our use case, we will choose from foundation models (FMs) that are pre-trained with vast corpora of data. If required, we will pre-train selected FMs with domain training data.
+  - Prompt tuning and fine-tuning: Tuning them further for specific tasks and adding domain-specific data.
+  - Reinforcement Learning / Human Feedback: Training with separate reward models (e.g., helpful, honest, harmless) and updating LLM model or adapter weights.
+  - Compression / Optimization / Deployment: Reducing model size through model pruning, weight quantization, distillation for smaller model size and faster inference.
+  - Interacting with external data sources and applications: Integrations that allow the app to process return requests end-to-end (e.g., from a live database or an event management function).
+  - Chain-of-thought reasoning: Training models with chain-of-thought reasoning similar to what humans do for complex tasks.
+  - Program-aided language models (PAL) framework: Helping LLM perform mathematics and programming tasks with the help of an interpreter (e.g., Python interpreter).
   - ReAct: Synergizing Reasoning and Acting in Language Models: This framework is for Reasoning and Action.
   - Agents and Hubs: SageMaker Jumpstart and HuggingFace ModelHubs can be used for multimodal response generation.
-  - Langchain Framework: This framework can be used to perform PAL, ReAct and Chain of Thought reasoning.
+  - Langchain Framework: This framework can be used to perform PAL, ReAct, and Chain of Thought reasoning.
 
 ### Development Tools
 - [AWS Serverless Application Model (AWS SAM)](https://aws.amazon.com/serverless/sam/) for serverless application development.
@@ -177,7 +180,7 @@ Our approach aims to realize seamless community collaboration while prioritizing
 - Amazon OpenSearch for full-text search and analytics.
 
 ### Machine Learning and AI
-- [Amazon SageMaker](https://aws.amazon.com/sagemaker/) for machine learning model development, training, evaluation, fine tuning and deployment.
+- [Amazon SageMaker](https://aws.amazon.com/sagemaker/) for machine learning model development, training, evaluation, fine-tuning, and deployment.
 
 ### Infrastructure Management
 - [AWS CloudFormation](https://aws.amazon.com/cloudformation/) for infrastructure as code (IAC) utilized by both AWS SAM and AWS CDK framework.
@@ -207,7 +210,8 @@ Our approach aims to realize seamless community collaboration while prioritizing
 - [Amazon Chime SDK](https://aws.amazon.com/chime/chime-sdk/) for building communication and collaboration features.
 
 ### Customer Service
-- [Amazon Connect](https://aws.amazon.com/connect/) provide superior customer service at a lower cost with an easy-to-use cloud contact center.
+- [Amazon Connect](https://aws.amazon.com/connect/) provides superior customer service at a lower cost with an easy-to-use cloud contact center.
+
 
 ### 1.2. Benefits:
 - Ensures immersive and responsive user interfaces.
