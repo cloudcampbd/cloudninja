@@ -119,8 +119,8 @@ Our approach aims to realize seamless community collaboration while prioritizing
 ### Data Warehousing
 - [Amazon Redshift](https://aws.amazon.com/redshift/) for data warehousing and analytics.
 
-#### Data Archiving
-- [Amazon Glacier](https://aws.amazon.com/glacier/) for long-term data archival.
+### Data Archiving
+- [Amazon Glacier](https://aws.amazon.com/glacier/) for long-term data archival and retreival.
   
 ### Data Processing
 - [AWS Glue](https://aws.amazon.com/glue/) for ETL (Extract, Transform, Load) and data integration.
