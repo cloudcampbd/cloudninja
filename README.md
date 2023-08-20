@@ -131,10 +131,6 @@ Our approach aims to realize seamless community collaboration while prioritizing
 - [AWS Elemental Media Services](https://aws.amazon.com/media-services/) for video processing and delivery.
 - [Amazon Kinesis Video Streams](https://aws.amazon.com/kinesis/video-streams/) for capturing, processing, and storing media streams for playback, analytics, and machine learning.
 
-#### Video Processing and Delivery
-- [AWS Elemental Media Services](https://aws.amazon.com/media-services/) for video processing and delivery.
-- [Amazon Kinesis Video Streams](https://aws.amazon.com/kinesis/video-streams/) for capturing, processing, and storing media streams for playback, analytics, and machine learning.
-
 ### AI and Machine Learning
 
 #### AI Model Development and Deployment
