@@ -1,6 +1,11 @@
+![Cloud Ninja](https://drive.google.com/uc?id=1bivn-WAJqP05ZJq05ZQO0NCmfCJfwily)
+
+
 # Cloud Ninja
 
-## CloudCamp Bangladesh Community Management Application
+*CloudCamp Bangladesh Community Management Application*
+
+- - - - -
 
 ## Authors
 
@@ -21,14 +26,19 @@
 | 13  | Abdullah Al Reza             | reza.ict@gmail.com              | +880-1917-897-919     |
 | 14  | Emam Hosain                  | engemamhosain@gmail.com         | +880-1750-841-137     |
 
-### Document Outline
-- [CloudNinja Application Overview](#cloud-ninja-application-overview)
+- - - - -
+
 - [1. Introduction](#1-introduction)
-  - [1.1. Technology Stack](#11-technology-stack)
-- [2. Application Overview](#2-application-overview)
-  - [2.1. Background](#21-background)
-  - [2.2. Objective](#22-objective)
-  - [2.3. Scope](#23-scope)
+  - [1.1. Application Overview](#11-application-overview)
+  - [1.2. Background](#12-background)
+  - [1.3. Objective](#13-objective)
+  - [1.4. Scope](#14-scope)
+- [2. Technology Stack](#2-technology-stack)
+  - [2.1. Frontend](#21-frontend)
+  - [2.2. Backend Services](#22-backend-services)
+    - [2.2.1. Developer Tools](#221-developer-tools)
+    - [2.2.2. Authentication, Authorization, Security, and Compliance](#222-authentication-authorization-security-and-compliance)
+    - [2.2.3. Serverless Computing ](#223-serverless-computing)
 - [3. Features and Functions](#3-features-and-functions)
   - [3.1. Enhanned User Access Management](#31-enhanced-user-access-management)
     - [3.1.1. New User Sign-Up](#311-new-user-sign-up)
@@ -46,7 +56,6 @@
   - [3.9. Push Notification](#39-push-notification)
   - [3.10. Email](#310-email)
   - [3.11. Subscription](#311-subscription)
-
 - [4. Architecture and Technology Stack](#4-architecture-and-technology-stack)
   - [4.1. Systemwide Architecture Diagram](#41-systemwide-architecture-diagram)
   - [4.2. UI/UX Design Mockup](#42-uiux-design-mockup)
@@ -79,44 +88,84 @@
 - [9. Active Team Members](#9-active-team-members)
 - [10. Leadership and Governance](#10-leadership-and-governance)
     
-# Cloud Ninja Application Overview
 
 ## 1. Introduction
 
-Welcome to the [CloudCamp Bangladesh](https://www.cloudcampbd.org/) **Cloud Ninja** Community Management Application Project! This document outlines the steps to develop a robust web application and mobile apps for both iOS and Android. Our project leverages AWS Serverless Services, Amazon SageMaker, and AWS Generative AI tools like CodeWhisperer and Bedrock for advanced AI-driven features. We utilize AWS SAM, Python SDK boto3, AWS CDK, and other AWS services for data management, queries, and visualizations.
+Welcome to the [CloudCamp Bangladesh](https://www.cloudcampbd.org/) Cloud Ninja Community Management Application Project! This document outlines the steps to develop a robust web application and mobile apps for both iOS and Android. Our project leverages AWS Serverless Services, Amazon SageMaker, and AWS Generative AI tools like [Amazon CodeWhisperer](https://aws.amazon.com/codewhisperer/) and [Amazon Bedrock](https://aws.amazon.com/bedrock/) for advanced AI-driven features. We utilize AWS SAM, Python SDK boto3, AWS CDK, and other AWS services for data management, queries, and visualizations.
 
 To create immersive user interfaces, we consider Vue.js, React, and seamless GraphQL API integration via AWS AppSync. For mobile apps, we use Kotlin/Java for Android and Objective-C/Swift for iOS, ensuring a seamless and secure user experience.
 
 Our approach aims to realize seamless community collaboration while prioritizing cost-efficiency, data security, and reliability, following the principles of the [AWS Well-Architected Framework](https://aws.amazon.com/architecture/well-architected/)
 
-### 1.1. Technology Stack
 
-## 1.1.1. Frontend
+## 1.1. Application Overview
+
+### 1.2. Background
+In an increasingly interconnected world, the need for efficient and effective community management has never been greater. Communities, whether professional, social, or interest-based, thrive on seamless communication, collaborative efforts, and shared resources. The Cloud Ninja Community Management Application Platform emerges as a response to this need, aiming to revolutionize the way communities interact, organize events, and manage their activities.
+- - -
+### 1.3. Objective
+The primary objective of the **Cloud Ninja** is to provide a comprehensive and user-friendly solution that empowers communities to thrive in the digital age. By integrating a suite of powerful features, the platform seeks to enhance communication, streamline event management, and foster meaningful connections among community members.
+- - -
+### 1.4. Scope
+The scope of the project encompasses the development of a versatile web application and native mobile apps for iOS and Android platforms. These applications will seamlessly integrate a range of functions, including user authentication, event management, professional profiles, and communication tools from the best features of Slack and Discord. The project's open-source nature invites contributions from a global community of developers, ensuring continuous improvement and customization to meet diverse community needs. With a focus on scalability, security, and an intuitive user experience, the Cloud Ninja Community Management Platform is poised to become a cornerstone for communities seeking efficient collaboration and growth.
+- - -
+
+## 2. Technology Stack
+- - -
+### 2.1. Frontend
 - [Vue.js](https://vuejs.org/) or other suitable frontend technologies like [React](https://react.dev/).
 - [AWS Amplify](https://aws.amazon.com/amplify/) for frontend development and hosting.
 
-## 1.1.2. Backend Services
+- - -
+### 2.2. Backend Services
+- - -
 
-### Authentication and Authorization
-- [Amazon Cognito](https://aws.amazon.com/cognito/) for user authentication and authorization.
 
-### Container Orchestration and Management
-- [Amazon EKS](https://aws.amazon.com/eks/) for container orchestration and management.
+#### 2.2.1. Developer Tools
+- - -
+In the ever-evolving landscape of cloud application development, having the right set of tools is paramount. Our toolkit consists of a range of AWS services tailored to streamline development, enhance productivity, and ensure code quality and security. These tools are essential for crafting the robust and efficient Cloud Ninja Community Management Application.
 
-### Serverless Computing
+Explore our development arsenal:
+- [AWS Serverless Application Model (AWS SAM)](https://aws.amazon.com/serverless/sam/) Simplify serverless application development.
+- [AWS Python SDK (boto3)](https://aws.amazon.com/sdk-for-python/) Access AWS services through Python.
+- [AWS Cloud9](https://aws.amazon.com/cloud9/) Experience an integrated development environment (IDE) in the cloud.
+- [AWS CDK (Cloud Development Kit)](https://aws.amazon.com/cdk/) Harness the power of infrastructure as code to provision AWS resources.
+
+- - - 
+#### 2.2.2. Authentication, Authorization, Security and Compliance
+- - -
+Our application relies on a suite of essential AWS services to ensure identity, compliance, and security for all actors and stakeholders.
+
+- [AWS IAM (Identity and Access Management)](https://aws.amazon.com/iam/) Manages user identities and their access to AWS resources.
+- [AWS Certificate Manager](https://aws.amazon.com/certificate-manager/) for SSL/TLS certificates.
+- [Amazon Cognito](https://aws.amazon.com/cognito/) Handles user authentication and authorization.
+- [AWS WAF (Web Application Firewall)](https://aws.amazon.com/waf/) Enhances application security by protecting against web-based attacks.
+- [AWS Artifact](https://aws.amazon.com/artifact/) Offers AWS and ISV security and compliance reports.
+
+  
+- - - 
+#### 2.2.3. Serverless Computing
+- - - 
+
 - [AWS Lambda](https://aws.amazon.com/lambda/) for Event-Driven Functions.
-- [AWS Fargate](https://aws.amazon.com/fargate/) containerized compute for long-running services or functions that need more control over resource allocation and can run within Docker containers. This might include web applications, microservices, or background services that run continuously.
+- [AWS Fargate](https://aws.amazon.com/fargate/) for containerized compute with fine-grained resource control.
 - [Amazon API Gateway](https://aws.amazon.com/api-gateway/) for building and managing APIs.
 - [AWS AppSync](https://aws.amazon.com/appsync/) for GraphQL API.
+- - - 
+#### Container Orchestration and Management
+- - -
+- [Amazon EKS](https://aws.amazon.com/eks/) for container orchestration and management.
 
-### Object Storage
+
+
+#### Object Storage
 - [Amazon S3 (Simple Storage Service)](https://aws.amazon.com/s3/) for object storage.
 
-### Databases
+#### Databases
 - [Amazon DynamoDB](https://aws.amazon.com/dynamodb/) for NoSQL database.
 - [AWS Aurora PostgreSQL Serverless](https://aws.amazon.com/rds/aurora/serverless/) for SQL database.
 
-### Data Warehousing
+#### Data Warehousing
 - [Amazon Redshift](https://aws.amazon.com/redshift/) for data warehousing and analytics.
 
 ### Data Archiving
@@ -154,11 +203,7 @@ Our approach aims to realize seamless community collaboration while prioritizing
   - Agents and Hubs: SageMaker Jumpstart and HuggingFace ModelHubs can be used for multimodal response generation.
   - Langchain Framework: This framework can be used to perform PAL, ReAct, and Chain of Thought reasoning.
 
-### Development Tools
-- [AWS Serverless Application Model (AWS SAM)](https://aws.amazon.com/serverless/sam/) for serverless application development.
-- [AWS Python SDK (boto3)](https://aws.amazon.com/sdk-for-python/) for AWS integration.
-- [AWS Cloud9](https://aws.amazon.com/cloud9/) for integrated development environment (IDE).
-- [AWS CDK (Cloud Development Kit)](https://aws.amazon.com/cdk/) for infrastructure as code.
+
 
 ### Workflow Automation
 - [Amazon Step Functions](https://aws.amazon.com/step-functions/) for orchestrating serverless workflows.
@@ -197,11 +242,7 @@ Our approach aims to realize seamless community collaboration while prioritizing
 ### Secrets Management
 - [AWS Secrets Manager](https://aws.amazon.com/secrets-manager/) for managing sensitive information.
 
-### Security
-- [AWS Identity](https://aws.amazon.com/identity/)
-- [AWS IAM (Identity and access management)](https://aws.amazon.com/iam/)
-- [AWS Certificate Manager](https://aws.amazon.com/certificate-manager/) for SSL/TLS certificates.
-- [AWS WAF (Web Application Firewall)](https://aws.amazon.com/waf/) for application security.
+
 
 ### Communication Platform
 - [Amazon Chime SDK](https://aws.amazon.com/chime/chime-sdk/) for building communication and collaboration features.
@@ -327,19 +368,6 @@ By integrating the AWS Serverless Application Lens into our architecture, we ens
 For detailed information on this lens, you can refer to the [AWS Serverless Application Lens documentation](https://docs.aws.amazon.com/wellarchitected/latest/serverless-applications-lens/welcome.html?).
 
 We will incorporate the insights and recommendations from this lens to enhance the serverless aspects of our Cloud Ninja Community Management Application Project.
-
-
-## 2. Application Overview
-
-### 2.1. Background
-In an increasingly interconnected world, the need for efficient and effective community management has never been greater. Communities, whether professional, social, or interest-based, thrive on seamless communication, collaborative efforts, and shared resources. The Cloud Ninja Community Management Application Platform emerges as a response to this need, aiming to revolutionize the way communities interact, organize events, and manage their activities.
-
-### 2.2. Objective
-The primary objective of the **Cloud Ninja** is to provide a comprehensive and user-friendly solution that empowers communities to thrive in the digital age. By integrating a suite of powerful features, the platform seeks to enhance communication, streamline event management, and foster meaningful connections among community members.
-
-### 2.3. Scope
-
-The scope of the project encompasses the development of a versatile web application and native mobile apps for iOS and Android platforms. These applications will seamlessly integrate a range of functions, including user authentication, event management, professional profiles, and communication tools from the best features of Slack and Discord. The project's open-source nature invites contributions from a global community of developers, ensuring continuous improvement and customization to meet diverse community needs. With a focus on scalability, security, and an intuitive user experience, the Cloud Ninja Community Management Platform is poised to become a cornerstone for communities seeking efficient collaboration and growth.
 
 ## 3. Features and Functions
 
