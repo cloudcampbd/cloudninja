@@ -34,7 +34,7 @@
   - [1.3. Objective](#13-objective)
   - [1.4. Scope](#14-scope)
 - [2. Technology Stack](#2-technology-stack)
-  - [2.1. Frontend](#21-frontend)
+  - [2.1. Frontend Development](#21-frontend-development)
   - [2.2. Backend Services](#22-backend-services)
     - [2.2.1. Developer Tools](#221-developer-tools)
     - [2.2.2. Authentication, Authorization, Security, and Compliance](#222-authentication-authorization-security-and-compliance)
@@ -112,7 +112,7 @@ The scope of the project encompasses the development of a versatile web applicat
 
 ## 2. Technology Stack
 - - -
-### 2.1. Frontend
+### 2.1. Frontend Development
 - [Vue.js](https://vuejs.org/) or other suitable frontend technologies like [React](https://react.dev/).
 - [AWS Amplify](https://aws.amazon.com/amplify/) for frontend development and hosting.
 
