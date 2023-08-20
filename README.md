@@ -177,7 +177,7 @@ Our approach aims to realize seamless community collaboration while prioritizing
 
 ### Database Query and Analysis
 - [Amazon Athena](https://aws.amazon.com/athena/) for querying data stored in Amazon S3.
-- Amazon OpenSearch for full-text search and analytics.
+- [Amazon OpenSearch](https://aws.amazon.com/opensearch-service/) for real-time search and analytics.
 
 ### Machine Learning and AI
 - [Amazon SageMaker](https://aws.amazon.com/sagemaker/) for machine learning model development, training, evaluation, fine-tuning, and deployment.
