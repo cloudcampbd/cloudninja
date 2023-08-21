@@ -1,6 +1,5 @@
 ![Cloud Ninja](https://drive.google.com/uc?id=1bivn-WAJqP05ZJq05ZQO0NCmfCJfwily)
 
-
 # Cloud Ninja
 
 *CloudCamp Bangladesh Community Management Application*
@@ -34,55 +33,55 @@
   - [1.3. Objective](#13-objective)
   - [1.4. Scope](#14-scope)
 - [2. Architecture and Technology Stack](#2-architecture-and-technology-stack)
-  - [2.1. Architecures](#21-architectures)
+  - [2.1. Architectures](#21-architectures)
     - [2.1.1. Systemwide Architecture Diagram](#211-systemwide-architecture-diagram)
     - [2.1.2. UI/UX Design Mockup](#212-uiux-design-mockup)
     - [2.1.3. Frontend Technologies](#213-frontend-technologies)
     - [2.1.4. Microservices Design](#214-microservices-design)
     - [2.1.5. Backend Technologies](#215-backend-technologies)
-    - [2.1.6. AI/ML and Generative AI](#216-ai-ml-and-generative-ai)
+    - [2.1.6. AI, ML and Generative AI](#216-ai-ml-and-generative-ai)
     - [2.1.7. Database Management](#217-database-management)
     - [2.1.8. Data Management and Analytics](#218-data-management-and-analytics)
     - [2.1.9. Payment Processing](#219-payment-processing)
   - [2.2 Technology Stack](#22-technology-stack)
-    - [2.2.1. Frontend Development](#21-frontend-development)
-    - [2.2.2. Backend Services](#22-backend-services)
-      - [2.2.2.1. Developer Tools](#221-developer-tools)
-      - [2.2.2.2. Authentication, Authorization, Security, and Compliance](#222-authentication-authorization-security-and-compliance)
-      - [2.2.2.3. Serverless Computing](#223-serverless-computing)
-      - [2.2.2.4. Container Orchestration and Management](#224-container-orchestration-and-management)
-      - [2.2.2.5. Workflow Automation](#225-workflow-automation)
-      - [2.2.2.6. Infrastructure Management](#226-infrastructure-management)
-      - [2.2.2.7. Continuous Integration and Continuous Deployment (CI/CD)](#227-continuous-integration-and-continuous-deployment-ci-cd)
-      - [2.2.2.8. Object Storage and Data Lake](#228-object-storage-and-data-lake)
-      - [2.2.2.9. Databases](#229-databases)
-      - [2.2.2.10. Data Warehousing and Archiving](#2210-data-warehousing-and-archiving)
-      - [2.2.2.11. Messaging](#2211-messaging)
-      - [2.2.2.12. Email and Notifications](#2212-email-and-notifications)
-      - [2.2.2.13. Content Delivery](#2213-content-delivery)
-      - [2.2.2.14. Code Reuse](#2214-code-reuse)
-      - [2.2.2.15. Tracing and Debugging](#2215-tracing-and-debugging)
-      - [2.2.2.16. Monitoring and Logging](#2216-monitoring-and-logging)
-      - [2.2.2.17. Secrets Management](#2217-secrets-management)
-      - [2.2.2.18. Database Query and Analysis](#2218-database-query-and-analysis)
-      - [2.2.2.19. Data Processing for Machine Learning and Analytics](#2219-data-processing-for-machine-learning-and-analytics)
-      - [2.2.2.20. Media Services - Video Processing and Delivery](#2220-media-services-video-processing-and-delivery)
-      - [2.2.2.21. Communication Platform](#2221-communication-platform)
-      - [2.2.2.22. Customer Service](#2222-customer-service)
-  - [2.2.3. AI and Machine Learning](#23-ai-and-machine-learning)
-    - [2.2.3.1. AI Model Development and Deployment](#231-ai-model-development-and-deployment)
-    - [2.2.3.2. AI Frameworks and Tools](#232-ai-frameworks-and-tools)
-    - [2.2.3.3. Generative AI Workflow and Tools](#233-generative-ai-workflow-and-tools)
-  - [2.2.4. Benefits](#24-benefits)
-  - [2.2.5. Values](#25-values)
-    - [2.5.1. Operational Excellence](#251-operational-excellence)
-    - [2.5.2. Security](#252-security)
-    - [2.5.3. Reliability](#253-reliability)
-    - [2.5.4. Performance Efficiency](#254-performance-efficiency)
-    - [2.5.5. Cost Optimization](#255-cost-optimization)
-    - [2.5.6. Sustainability](#256-sustainability)
-  - [2.2.6. Cloud Adoption Framework for Artificial Intelligence, Machine Learning, and Generative AI (CAF-AI)](#257-cloud-adoption-framework-for-artificial-intelligence-machine-learning-and-generative-ai-caf-ai)
-  - [2.2.7. AWS Serverless Application Lens](#258-aws-serverless-application-lens)
+    - [2.2.1. Frontend Development](#221-frontend-development)
+    - [2.2.2. Backend Services](#222-backend-services)
+      - [2.2.2.1. Developer Tools](#2221-developer-tools)
+      - [2.2.2.2. Authentication, Authorization, Security, and Compliance](#2222-authentication-authorization-security-and-compliance)
+      - [2.2.2.3. Serverless Computing](#2223-serverless-computing)
+      - [2.2.2.4. Container Orchestration and Management](#2224-container-orchestration-and-management)
+      - [2.2.2.5. Workflow Automation](#2225-workflow-automation)
+      - [2.2.2.6. Infrastructure Management](#2226-infrastructure-management)
+      - [2.2.2.7. Continuous Integration and Continuous Delivery (CI/CD)](#2227-continuous-integration-and-continuous-delivery-cicd)
+      - [2.2.2.8. Object Storage and Data Lake](#2228-object-storage-and-data-lake)
+      - [2.2.2.9. Databases](#2229-databases)
+      - [2.2.2.10. Data Warehousing and Archiving](#22210-data-warehousing-and-archiving)
+      - [2.2.2.11. Messaging](#22211-messaging)
+      - [2.2.2.12. Email and Notifications](#22212-email-and-notifications)
+      - [2.2.2.13. Content Delivery](#22213-content-delivery)
+      - [2.2.2.14. Code Reuse](#22214-code-reuse)
+      - [2.2.2.15. Tracing and Debugging](#22215-tracing-and-debugging)
+      - [2.2.2.16. Monitoring and Logging](#22216-monitoring-and-logging)
+      - [2.2.2.17. Secrets Management](#22217-secrets-management)
+      - [2.2.2.18. Database Query and Analysis](#22218-database-query-and-analysis)
+      - [2.2.2.19. Media Services - Video Processing and Delivery](#22219-media-services---video-processing-and-delivery)
+      - [2.2.2.20. Communication Platform](#22220-communication-platform)
+      - [2.2.2.21. Customer Service](#22221-customer-service)
+  - [2.2.3. AI and Machine Learning](#223-ai-and-machine-learning)
+    - [2.2.3.1. Data Processing for Machine Learning and Analytics](#2231-data-processing-for-machine-learning-and-analytics)
+    - [2.2.3.2. AI Model Development and Deployment](#2232-ai-model-development-and-deployment)
+    - [2.2.3.3. AI Frameworks and Tools](#2233-ai-frameworks-and-tools)
+    - [2.2.3.4. Generative AI Workflow and Tools](#2234-generative-ai-workflow-and-tools)
+  - [2.2.4. Benefits](#224-benefits)
+  - [2.2.5. Values](#225-values)
+    - [2.2.5.1. Operational Excellence](#2251-operational-excellence)
+    - [2.2.5.2. Security](#2252-security)
+    - [2.2.5.3. Reliability](#2253-reliability)
+    - [2.2.5.4. Performance Efficiency](#2254-performance-efficiency)
+    - [2.2.5.5. Cost Optimization](#2255-cost-optimization)
+    - [2.2.5.6. Sustainability](#2256-sustainability)
+  - [2.2.6. Cloud Adoption Framework for Artificial Intelligence, Machine Learning, and Generative AI (CAF-AI)](#226-cloud-adoption-framework-for-artificial-intelligence-machine-learning-and-generative-ai-caf-ai)
+  -  [2.2.7. AWS Serverless Application Lens](#227-aws-serverless-application-lens)
 - [3. Features and Functions](#3-features-and-functions)
   - [3.1. Enhanced User Access Management](#31-enhanced-user-access-management)
     - [3.1.1. New User Sign-Up](#311-new-user-sign-up)
@@ -148,7 +147,7 @@ The scope of the project encompasses the development of a versatile web applicat
 ## 2. Architecture and Technology Stack
 Our architecture leverages the power of AWS services and cutting-edge technologies to ensure a scalable and efficient platform.
 
-### 2.1. Architecures
+### 2.1. Architectures
 
 ### 2.1.1. Systemwide Architecture Diagram
 View our overall architecture diagram here:
@@ -166,7 +165,7 @@ Discover our microservices design architecture here.
 ### 2.1.5. Backend Technologies
 Learn how our backend system works here.
 
-### 2.1.6. AI/ML and Generative AI
+### 2.1.6. AI, ML and Generative AI
 Explore our AI/ML and Generative AI architecture here.
 
 ### 2.1.7. Database Management
@@ -204,7 +203,7 @@ Explore our development arsenal:
 - [AWS CDK (Cloud Development Kit)](https://aws.amazon.com/cdk/) Harness the power of infrastructure as code to provision AWS resources.
 
 - - - 
-#### 2.2.2. Authentication, Authorization, Security and Compliance
+#### 2.2.2.2. Authentication, Authorization, Security and Compliance
 - - -
 Our application relies on a suite of essential AWS services to ensure identity, compliance, and security for all actors and stakeholders.
 
@@ -216,7 +215,7 @@ Our application relies on a suite of essential AWS services to ensure identity, 
 
   
 - - - 
-#### 2.2.3. Serverless Computing
+#### 2.2.2.3. Serverless Computing
 - - - 
 In this section, we explore the heart of our application's compute capabilitiesâ€”serverless computing. Leveraging serverless technologies allows us to efficiently manage and scale our application without the overhead of traditional server management. Dive into the components that power our event-driven architecture, APIs, and seamless data integration.
 
@@ -228,124 +227,123 @@ In this section, we explore the heart of our application's compute capabilitiesâ
 These services collectively empower our backend infrastructure to deliver the performance, scalability, and security needed to support the Cloud Ninja Community Management Application's diverse functionality.
 
 - - - 
-#### 2.2.4. Container Orchestration and Management
+#### 2.2.2.4. Container Orchestration and Management
 - - -
 - [Amazon EKS](https://aws.amazon.com/eks/) for container orchestration and management.
 
-#### 2.2.5. Workflow Automation
+#### 2.2.2.5. Workflow Automation
 - [Amazon Step Functions](https://aws.amazon.com/step-functions/) for orchestrating serverless workflows.
 - [Amazon EventBridge](https://aws.amazon.com/eventbridge/) for event-driven architecture.
 
 - - - 
-#### 2.2.6. Infrastracture Management
+#### 2.2.2.6. Infrastructure Management
 - - - 
 - [AWS CloudFormation](https://aws.amazon.com/cloudformation/) for infrastructure as code (IAC) utilized by both AWS SAM and AWS CDK framework.
 
 - - - 
-#### 2.2.7. Continuous Integration and Continuous Deployment CI/CD
+#### 2.2.2.7. Continuous Integration and Continuous Delivery (CI/CD)
 - - - 
 - [AWS CodePipeline](https://aws.amazon.com/codepipeline/) for building and deploying code.
 - [AWS CodeBuild](https://aws.amazon.com/codebuild/) for building and testing code.
 
 - - - 
-#### 2.2.8. Object Storage and Data Lake
+#### 2.2.2.8. Object Storage and Data Lake
 - - - 
 - [Amazon S3 (Simple Storage Service)](https://aws.amazon.com/s3/) for object storage.
 
 
 - - - 
-#### 2.2.9. Databases
+#### 2.2.2.9. Databases
 - - - 
 
 - [Amazon DynamoDB](https://aws.amazon.com/dynamodb/) for NoSQL database.
 - [AWS Aurora PostgreSQL Serverless](https://aws.amazon.com/rds/aurora/serverless/) for SQL database.
 
-#### 2.2.10. Data Warehousing and Archiving
+#### 2.2.2.10. Data Warehousing and Archiving
 - - - 
 
 - [Amazon Redshift](https://aws.amazon.com/redshift/) for data warehousing and analytics.
 - [Amazon S3 Glacier](https://aws.amazon.com/glacier/) for long-term data archival and retrieval.
 
 - - - 
-#### 2.2.11. Messaging
+#### 2.2.2.11. Messaging
 - - - 
 - [Amazon SQS (Simple Queue Service)](https://aws.amazon.com/sqs/) for message queuing.
 
 - - - 
-#### 2.2.12. Email and Notifications
+#### 2.2.2.12. Email and Notifications
 - - - 
 - [Amazon SES (Simple Email Service)](https://aws.amazon.com/ses/) for sending emails.
 - [Amazon SNS (Simple Notification Service)](https://aws.amazon.com/sns/) for event-driven notifications.
 
 - - - 
-#### 2.2.13. Content Delivery
+#### 2.2.2.13. Content Delivery
 - - - 
 - [Amazon CloudFront](https://aws.amazon.com/cloudfront/) for content delivery and caching.
 
 - - - 
-#### 2.2.14. Code Reuse
+#### 2.2.2.14. Code Reuse
 - - - 
 - [AWS Lambda Layers](https://docs.aws.amazon.com/lambda/latest/dg/chapter-layers.html) for code reuse.
 
 - - - 
-#### 2.2.15. Tracing and Debugging
+#### 2.2.2.15. Tracing and Debugging
 - - - 
 - [AWS X-Ray](https://aws.amazon.com/xray/) for application tracing and debugging.
 
 
 - - - 
-#### 2.2.16. Monitoring and Logging
+#### 2.2.2.16. Monitoring and Logging
 - - - 
 - [Amazon CloudWatch](https://aws.amazon.com/cloudwatch/) for monitoring and logging.
 - [AWS CloudTrail](https://aws.amazon.com/cloudtrail/) for audit and monitoring of AWS resources.
 
 - - - 
-#### 2.2.17. Secrets Management
+#### 2.2.2.17. Secrets Management
 - - - 
 - [AWS Secrets Manager](https://aws.amazon.com/secrets-manager/) for managing sensitive information.
 
 
 - - - 
-#### 2.2.18. Database Query and Analysis
+#### 2.2.2.18. Database Query and Analysis
 - - - 
 - [Amazon Athena](https://aws.amazon.com/athena/) for querying data stored in Amazon S3.
 
 
-- - -   
-#### 2.2.19. Data Processing for Machine Learning and Analytics
 - - - 
-- [AWS Glue](https://aws.amazon.com/glue/) for ETL (Extract, Transform, Load) and data integration and ingestion.
-
-- - - 
-#### 2.2.20. Media Services - Video Processing and Delivery
+#### 2.2.2.19. Media Services - Video Processing and Delivery
 - - - 
 - [AWS Elemental Media Services](https://aws.amazon.com/media-services/) for video processing and delivery.
 - [Amazon Kinesis Video Streams](https://aws.amazon.com/kinesis/video-streams/) for capturing, processing, and storing media streams for playback, analytics, and machine learning.
 
 
 - - - 
-#### 2.2.21. Communication Platform
+#### 2.2.2.20. Communication Platform
 - - - 
 - [Amazon Chime SDK](https://aws.amazon.com/chime/chime-sdk/) for building communication and collaboration features.
 
-
-
-#### 2.2.22. Customer Service
+- - -
+#### 2.2.2.21. Customer Service
+- - -
 - [Amazon Connect](https://aws.amazon.com/connect/) provides superior customer service at a lower cost with an easy-to-use cloud contact center.
 
 - - - 
-### 2.3. AI and Machine Learning
+### 2.2.3. AI and Machine Learning
 - - - 
+- - -
+#### 2.2.3.1. Data Processing for Machine Learning and Analytics
+- - - 
+- [AWS Glue](https://aws.amazon.com/glue/) for ETL (Extract, Transform, Load) and data integration and ingestion.
 
-#### 2.3.1. AI Model Development and Deployment
+#### 2.2.3.2. AI Model Development and Deployment
 - [Amazon SageMaker](https://aws.amazon.com/sagemaker/) for end-to-end machine learning model development, training, evaluation, fine-tuning, and deployment.
 
-#### 2.3.2. AI Frameworks and Tools
+#### 2.2.3.3. AI Frameworks and Tools
 - [Amazon OpenSearch](https://aws.amazon.com/opensearch-service/) for real-time search and analytics.
 - [Amazon CodeWhisperer](https://aws.amazon.com/code-whisperer/) for automated code review and suggestions.
 - [Amazon Bedrock](https://aws.amazon.com/bedrock/) foundation models (FMs) API service will be utilized for Generative AI and Artificial General Intelligence (AGI) during the project lifecycle.
 
-#### 2.3.3. Generative AI Workflow and Tools
+#### 2.2.3.4. Generative AI Workflow and Tools
 
   - Pre-training: Depending on our use case, we will choose from foundation models (FMs) that are pre-trained with vast corpora of data. If required, we will pre-train selected FMs with domain training data.
   - Prompt tuning and fine-tuning: Tuning them further for specific tasks and adding domain-specific data.
@@ -359,17 +357,15 @@ These services collectively empower our backend infrastructure to deliver the pe
   - Langchain Framework: This framework can be used to perform PAL, ReAct, and Chain of Thought reasoning.
 
 
-
-
-### 2.4. Benefits
+### 2.2.4. Benefits
 - Ensures immersive and responsive user interfaces.
 - Empowers the platform with advanced AI-driven functionalities.
 - Enhances flexibility and adaptability through seamless GraphQL API integration using AWS AppSync.
 - Guarantees a seamless and intuitive user interface for mobile users.
 
-### 2.5. Values
+### 2.2.5. Values
 
-#### 2.5.1. Operational Excellence
+#### 2.2.5.1. Operational Excellence
 
 - **Design Principles:**
   1. Perform operations as code
@@ -385,7 +381,7 @@ These services collectively empower our backend infrastructure to deliver the pe
   - Design operations to support evolution over time.
   - Incorporate lessons learned through performance.
 
-#### 2.5.2. Security
+#### 2.2.5.2. Security
 
 - **Design Principles:**
   1. Implement a strong identity foundation
@@ -404,7 +400,7 @@ These services collectively empower our backend infrastructure to deliver the pe
   - Have a process for responding to security incidents.
   - Leverage the AWS Shared Responsibility Model.
 
-#### 2.5.3. Reliability
+#### 2.2.5.3. Reliability
 
 - **Design Principles:**
   1. Automatically recover from failure
@@ -419,7 +415,7 @@ These services collectively empower our backend infrastructure to deliver the pe
   - Anticipate and accommodate changes in workload or environment.
   - Implement resiliency with fault isolation, automated failover, and disaster recovery strategies.
 
-#### 2.5.4. Performance Efficiency
+#### 2.2.5.4. Performance Efficiency
 
 - **Design Principles:**
   1. Democratize advanced technologies
@@ -434,7 +430,7 @@ These services collectively empower our backend infrastructure to deliver the pe
   - Make trade-offs in architecture to improve performance.
   - Use multiple solutions and features to improve performance.
 
-#### 2.5.5. Cost Optimization
+#### 2.2.5.5. Cost Optimization
 
 - **Design Principles:**
   1. Implement cloud financial management
@@ -449,7 +445,7 @@ These services collectively empower our backend infrastructure to deliver the pe
   - Use appropriate services, resources, and configurations.
   - Regularly review and monitor to take advantage of evolving AWS services.
 
-#### 2.5.6. Sustainability
+#### 2.2.5.6. Sustainability
 
 - **Design Principles:**
   1. Understand your impact
@@ -467,7 +463,7 @@ These services collectively empower our backend infrastructure to deliver the pe
   - Identify opportunities to reduce sustainability impact in development and deployment.
  
 
-#### 2.5.7. Cloud Adoption Framework for Artificial Intelligence, Machine Learning, and Generative AI (CAF-AI)
+#### 2.2.6. Cloud Adoption Framework for Artificial Intelligence, Machine Learning, and Generative AI (CAF-AI)
 
 Our AI and ML journey is guided by the AWS Cloud Adoption Framework for Artificial Intelligence, Machine Learning, and Generative AI (CAF-AI). CAF-AI is our dynamic resource, helping us shape our strategy, assess maturity, and drive AI success.
 
@@ -475,7 +471,7 @@ This framework enables us to explore key AI considerations, foster discussions w
 
 Our goal is to provide the same prescriptive guidance as AWS CAF but tailored for AI and ML, leveraging CAF's proven organizational capabilities while addressing the unique demands of AI. AWS CAF has accelerated cloud transformations globally, and CAF-AI extends this impact into the realm of AI.
 
-#### 2.5.8. AWS Serverless Application Lens
+#### 2.2.7. AWS Serverless Application Lens
 
 The AWS Serverless Application Lens is a valuable addition to our project. This lens provides guidance and best practices specifically tailored to serverless architectures. It offers insights into optimizing serverless applications for improved performance, cost efficiency, and reliability.
 
