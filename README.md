@@ -125,7 +125,7 @@
 
 ## 1. Introduction
 
-Welcome to the [CloudCamp Bangladesh](https://www.cloudcampbd.org/) Cloud Ninja Community Management Application Project! This document outlines the steps to develop a robust web application and mobile apps for both iOS and Android. Our project leverages AWS Serverless Services, Amazon SageMaker, and AWS Generative AI tools like [Amazon CodeWhisperer](https://aws.amazon.com/codewhisperer/) and [Amazon Bedrock](https://aws.amazon.com/bedrock/) for advanced AI-driven features. We utilize AWS SAM, Python SDK boto3, AWS CDK, and other AWS services for data management, queries, and visualizations.
+Welcome to the [CloudCamp Bangladesh](https://www.cloudcampbd.org/) Cloud Ninja Community Management Application Project! This document outlines the steps to develop a robust web application and mobile apps for both iOS and Android. Our project leverages AWS Serverless Services, Amazon SageMaker, and AWS Generative AI tools like [Amazon CodeWhisperer](https://aws.amazon.com/codewhisperer/) and [Amazon Bedrock](https://aws.amazon.com/bedrock/) for advanced AI-driven features. We utilize [AWS Serverless Application Model (AWS SAM)](https://aws.amazon.com/serverless/sam/), [AWS Python SDK (boto3)](https://aws.amazon.com/sdk-for-python/), [AWS CDK (Cloud Development Kit)](https://aws.amazon.com/cdk/), and other AWS services for data management, queries, and visualizations.
 
 To create immersive user interfaces, we consider Vue.js, React, and seamless GraphQL API integration via AWS AppSync. For mobile apps, we use Kotlin/Java for Android and Objective-C/Swift for iOS, ensuring a seamless and secure user experience.
 
