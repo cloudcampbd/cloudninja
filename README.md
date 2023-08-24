@@ -238,7 +238,7 @@ These services collectively empower our backend infrastructure to deliver the pe
 - - - 
 #### 2.2.2.6. Infrastructure Management
 - - - 
-- [AWS CloudFormation](https://aws.amazon.com/cloudformation/) for infrastructure as code (IAC) utilized by both AWS SAM and AWS CDK framework.
+- [AWS CloudFormation](https://aws.amazon.com/cloudformation/) for infrastructure as code (IAC) utilized by both AWS SAM and AWS CDK frameworks.
 
 - - - 
 #### 2.2.2.7. Continuous Integration and Continuous Delivery (CI/CD)
