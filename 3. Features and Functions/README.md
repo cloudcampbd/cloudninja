@@ -2,7 +2,7 @@ Certainly! Here's a sample content for your `README.md` file that explains how t
 
 ---
 
-# CloudNinja - AWS SAM Template
+# CloudNinja - AWS SAM Template for Amazon Cognito
 
 This repository contains an AWS SAM template that sets up a Cognito User Pool and User Pool Client. The template is designed to streamline the creation of user authentication and authorization features for your applications using Amazon Cognito.
 
