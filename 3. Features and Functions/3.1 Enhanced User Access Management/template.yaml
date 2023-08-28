@@ -1,0 +1,78 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: CloudNinja - Cognito User Pool
+
+Parameters:
+  CallbackUrl: 
+    Type: String
+    Default: "https://example.com/callback"
+  LogoutURL:
+    Type: String
+    Default: "https://example.com/logout"
+
+Resources:
+  UserPool:
+    Type: "AWS::Cognito::UserPool"
+    Properties:
+      UserPoolName: MyUserPool
+      UsernameAttributes:
+        - email
+      AutoVerifiedAttributes:
+        - email
+      VerificationMessageTemplate:
+        EmailMessage: "Your verification code is {####}."
+        EmailSubject: "Your verification code"
+      Policies:
+        PasswordPolicy:
+          MinimumLength: 8
+          RequireUppercase: true
+          RequireLowercase: true
+          RequireNumbers: true
+          RequireSymbols: true
+      Schema:
+        - AttributeDataType: String
+          Name: custom:firstName
+          Required: false
+        - AttributeDataType: String
+          Name: custom:lastName
+          Required: false
+        - AttributeDataType: String
+          Name: email
+          Required: true
+        - AttributeDataType: String
+          Name: phone_number
+          Required: false
+        - AttributeDataType: String
+          Name: address
+          Required: false
+  UserPoolClient:
+    Type: "AWS::Cognito::UserPoolClient"
+    Properties:
+      UserPoolId: !Ref UserPool
+      ClientName: MyUserPoolClient
+      GenerateSecret: false
+      AllowedOAuthFlows: 
+        - implicit
+      AllowedOAuthFlowsUserPoolClient: True
+      AllowedOAuthScopes: 
+        - email
+        - openid
+        - profile
+      CallbackURLs:
+        - !Ref CallbackUrl
+      LogoutURLs:
+        - !Ref LogoutURL
+      SupportedIdentityProviders:
+        - COGNITO
+  UserPoolDomain:
+      Type: AWS::Cognito::UserPoolDomain
+      Properties: 
+        Domain: !Sub user-pool-domain-${AWS::AccountId}
+        UserPoolId: !Ref UserPool
+Outputs:
+  UserPoolID:
+   Description: "This ID is for user pool"
+   Value: !Ref UserPool
+  HostedUi:
+    Description: Hosted UI
+    Value: !Sub "https://${UserPoolDomain}.auth.${AWS::Region}.amazoncognito.com/login?client_id=${UserPoolClient}&response_type=token&scope=email+openid+profile&redirect_uri=${CallbackUrl}"
