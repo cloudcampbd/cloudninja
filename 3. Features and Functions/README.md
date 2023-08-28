@@ -30,13 +30,13 @@ To deploy the AWS SAM template, follow these steps:
 1. Clone this repository to your local machine:
 
    ```sh
-   git clone https://github.com/YourUsername/cloudninja.git
+   git clone https://github.com/cloudcampbd/cloudninja.git
    ```
 
 2. Navigate to the project directory:
 
    ```sh
-   cd cloudninja
+   cd cd cloudninja/3.\ Features\ and\ Functions/
    ```
 
 3. Deploy the SAM template using the following command:
