@@ -11,6 +11,7 @@ Parameters:
     Default: "https://example.com/logout"
 
 Resources:
+# Define a Cognito User Pool
   UserPool:
     Type: "AWS::Cognito::UserPool"
     Properties:
@@ -45,6 +46,7 @@ Resources:
         - AttributeDataType: String
           Name: address
           Required: false
+  # Define a Cognito User Pool Client
   UserPoolClient:
     Type: "AWS::Cognito::UserPoolClient"
     Properties:
@@ -64,6 +66,7 @@ Resources:
         - !Ref LogoutURL
       SupportedIdentityProviders:
         - COGNITO
+  # Define a Cognito User Pool Domain
   UserPoolDomain:
       Type: AWS::Cognito::UserPoolDomain
       Properties: 
