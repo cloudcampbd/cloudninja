@@ -25,7 +25,6 @@
 | 13  | Abdullah Al Reza             | reza.ict@gmail.com              | +880-1917-897-919     |
 | 14  | Emam Hosain                  | engemamhosain@gmail.com         | +880-1750-841-137     |
 
-- - - - -
 
 - [1. Introduction](#1-introduction)
   - [1.1. Application Overview](#11-application-overview)
