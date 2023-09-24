@@ -15,7 +15,7 @@
 | 3   | Sanjoy K Paul                | skpaul@DevsStation.com          | +880-1511-927-992     |
 | 4   | Naim Hossen                  | naimhossenpro@gmail.com         | +880-1750-565-053     |
 | 5   | Fahimul Hoque Jason          | fahimulhoquejason@gmail.com     | +880-1715-901-532     |
-| 6   | Md. Mahmud Hasan             | hasansaikatt@gmail.com          | +880-1643-095-283     |
+| 6   | Md. Mahmud Hasan             | hasansaikatt@gmail.com          | +880-1862-444-864     |
 | 7   | Akil Mahmod Tipu             | akil.mahmod@cloudcampbd.com     | +880-1742-999-076     |
 | 8   | Md Shyfur Rahman             | shyfurahman@gmail.com           | +880-1970-749-387     |
 | 9   | Rais Uddin Md Rasel          | raisdhaka@gmail.com             | +880-1911-314-145     |
